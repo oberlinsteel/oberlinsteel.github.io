@@ -3,3 +3,4 @@ markdown: redcarpet
 pygments: true
 permalink: /music/:title/
 image_url: /static/images
+baseurl: /osteel
