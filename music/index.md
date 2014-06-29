@@ -13,11 +13,11 @@ For track listings and more information, click on the album titles below. Many o
 <ul class="media-list">
 	{% for post in site.categories.music %}
 		<li class="media">
-			<a class="pull-left" href="{{ post.url }}">
-				<img class="media-object" src="{{ site.image_url }}/albums/{{ post.image }}" width="100">
+			<a class="pull-left" href="{{ site.baseurl }}{{ post.url }}">
+				<img class="media-object" src="{{ site.baseurl }}{{ site.image_url }}/albums/{{ post.image }}" width="100">
 			</a>
 			<div class="media-body">
-				<h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+				<h4 class="media-heading"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
 				<p>{{ post.year }}, {{ post.medium }}{% if post.bandcamp %}, <a href="http://oberlinsteel.bandcamp.com/album/{{ post.bandcamp }}">on bandcamp</a>{% endif %}</p>
 			</div>
 		</ul>
