@@ -12,8 +12,8 @@ OSteel plays primarily Trinidadian calypso and soca tunes, up-tempo and extremel
 
 The band’s current gig coordinator is Eliot Hart-Nelson. If you would like to book the band, please contact us at [osteel@oberlin.edu](mailto:osteel@oberlin.edu).
 
-### Videos of Past Performances
+## Videos of Past Performances
 
-[Short Mountain, TN, March 2014](https://www.youtube.com/watch?v=WCtmFuDXJ_I)
+<iframe width="693" height="390" class="margin-trailer" src="//www.youtube-nocookie.com/embed/WCtmFuDXJ_I" frameborder="0" allowfullscreen></iframe>
 
-[Washington, DC, April 2010](http://www.youtube.com/watch?v=C6-wvep_35c)
+<iframe width="693" height="390" src="//www.youtube-nocookie.com/embed/C6-wvep_35c" frameborder="0" allowfullscreen></iframe>

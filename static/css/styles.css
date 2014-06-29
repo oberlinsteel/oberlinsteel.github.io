@@ -28,6 +28,14 @@ ul.unstyled {
   padding-left: 0;
 }
 
+iframe {
+  max-width: 100%;
+}
+
+.margin-trailer {
+  margin-bottom: 22px;
+}
+
 .inline-h {
   margin-right: 5px;
 }
@@ -45,13 +53,16 @@ ul.unstyled {
 }
 
 .box {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 22px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
+}
+.box h2:first-child {
+  margin-top: 0;
 }
 .box p:last-child {
   margin-bottom: 0;
