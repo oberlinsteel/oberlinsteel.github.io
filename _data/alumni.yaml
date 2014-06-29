@@ -1,632 +1,632 @@
-members: 
-- name: Noah Jones
-  instruments: Double Tenor, Aux Percussion
-  years: Spring '11--Spring '14
-- name: James Luttrell
-  instruments: Drum Set, Aux Percussion
-  years: Spring '11--Spring '14
-- name: Tom Rathe
-  instruments: Double Seconds, Aux Percussion
-  years: Spring '11--Spring '14
-- name: Toby Irving
-  instruments: Tenor Bass, Double Tenor
-  years: Fall '11--Spring '14
-- name: Katie Rotman
-  instruments: Tenor
-  years: Fall '11--Spring '14
-- name: Becky Jones
-  instruments: Double Seconds, Tenor
-  years: Spring '12--Spring '14
-- name: Matt Gold
-  instruments: Drum Set, Double Seconds
-  years: Fall '09--Spring '13
-  etc: !!str Making music in Chicago.
-- name: Summer Lusk
-  instruments: Cellos
-  years: Fall '09--Spring '13
-  etc: !!str Masters student and graduate teaching assistant at the University of Colorado. Freelancing/researching/producing music on the side.
-- name: Alicia Dudziak
-  instruments: Double Seconds, Tenor
-  years: Fall '10--Spring '13
-  etc: !!str Living in Seattle, nannying and generally loving life.
-- name: Anabel Hirano
-  instruments: Tenor Bass, Tenor
-  years: Fall '10--Spring '13
-  etc: !!str Living in Tokyo on a Shansi Fellowship.
-- name: June Hong
-  instruments: Cellos, Double Tenor
-  years: Fall '10--Spring '13
-  etc: !!str Chillin in the Bay Area.
-- name: Cate Hughes
-  instruments: Tenor
-  years: Fall '11--Spring '13
-- name: Eston Schweickart
-  instruments: Quads
-  years: Fall '12--Spring '13
-  etc: !!str Exploring the realms of academia from a computational perspective in Ithaca, NY.
-- name: Anne Thompson
-  instruments: Double Tenor, Tenor
-  years: Spring ’09–Spring ’12
-  etc: !!str Teaching English near Clermont-Ferrand, France.
-- name: Chris Canning
-  instruments: Six Bass, Tenor
-  years: Fall ’09–Spring ’12
-  etc: !!str Interning for the NYC Department of Parks and Recreation.
-- name: Caroline Chen
-  instruments: Quads
-  years: Fall ’09–Spring ’12
-- name: Jeremy Siegel
-  instruments: Tenor
-  years: Fall ’09–Spring ’12
-- name: Will Georges
-  instruments: Drum Set
-  years: Fall ’09–Spring ’12
-  etc: !!str Teaching for America on the Big Island in Hawaii.
-- name: Galen Rogers
-  instruments: Cellos
-  years: Spring ’10–Spring ’12
-  etc: !!str Left his soul in the Badlands.
-- name: Meade Klingensmith
-  instruments: Tenor
-  years: Fall ’10–Spring ’12
-  etc: !!str Research assistant at a public policy journal in NYC.
-- name: Rosa Tu
-  instruments: Tenor Bass
-  years: Spring '09--Spring '11 
-  etc: !!str Traveling to Ukraine
-- name: Leah "Sharpshooter" Baskt
-  instruments: Tenor
-  years: Spring '08--Spring '09
-  etc: !!str Grad student in neuroscience at UW in Seattle.
-- name: Tyler Stoll
-  instruments: Tenor/Double Tenor
-  years: Fall '08-Spring '11
-  etc: !!str Raising ducks, slaughtering rabbits, and doing non-profit work in Durham, NC.
-- name: Rachel Saudek
-  instruments: Double Seconds
-  years: Fall '08-Spring '11
-- name: Katarina Lunde
-  instruments: Tenor, Quads
-  years: Spring '09--Spring '11 
-  etc: !!str Being awesome.
-- name: Shannon Rieke
-  instruments: Aux Percussion
-  years: Spring '08--Spring '10
-  etc: !!str Going to law school.
-- name: Joe McCall
-  instruments: Tenor, Six Bass
-  years: Spring '08--Spring '10
-  etc: !!str Teaching in his hometown of Charlottesville, VA.
-- name: Luke Hoffman
-  instruments: Drum Set
-  years: Spring '08--Fall '09
-  etc: !!str Running a painting business in Oberlin.
-- name: Sarah "Bruiser" Brabinski
-  instruments: Tenor
-  years: Fall '08--Spring '11
-  etc: !!str Biology research assistant at Case Western
-- name: Rebecca Eiseman
-  instruments: Quads
-  years: Fall '07--Spring '09
-  etc: !!str Working at a neighborhood market in San Francisco & playing with the CSM Panhandlers.
-- name: Nathaniel "Natty Boom-Boom" Meyer
-  instruments: Tenor
-  years: Spring '07--Spring '09
-  etc: !!str Working for Green Corps in PA
-- name: Lam La
-  instruments: Double Tenor
-  years: Fall '07--Spring '10
-  etc: !!str Building furniture in Boston.
-- name: Becca Page
-  instruments: Double Seconds
-  years: Fall '07--Spring '10
-  etc: !!str In China on Fulbright scholarship.
-- name: Zach Diamond
-  instruments: Cellos
-  years: Fall '07--Spring '10
-  etc: !!str In Peru on a Fulbright scholarship.
-- name: Zeke Runyon
-  instruments: Double Seconds
-  years: Spring '07--Spring '10
-  etc: !!str Living in San Francisco and working at a fruit company
-- name: Andrew Lawrence
-  instruments: Six Bass, Tenor Bass, Double Seconds, Aux Percussion
-  years: Spring '07--Spring '10
-  etc: !!str Playing with Organ Yank in Chicago.
-- name: Phil Kingsmith
-  instruments: Tenor, Cello, Aux Percussion
-  years: Fall '06--Fall '09
-  etc: !!str Playing music in Philly.
-- name: Toussaint Mears-Clarke
-  instruments: Tenor Bass
-  years: Fall '06--Spring '09
-  etc: !!str At the University of Chicago Medical School.
-- name: Mona Barber
-  instruments: Double Seconds, Tenor
-  years: Spring '06--Spring '09
-  etc: !!str Working at a violin shop in Seattle and sailing quite frequently.
-- name: Pete Steffy
-  instruments: Aux Percussion
-  years: 06--'08
-  etc: !!str In Mexico on a Fulbright Scholarship.
-- name: Sam Lasser
-  instruments: Double Seconds
-  years: 06--'08
-  etc: !!str Teaching English in Oman
-- name: Jody-Ann Allen
-  instruments: Tenor
-  years: 06--'08
-- name: Maya Curry
-  instruments: Tenor
-  years: 06--'08
-  etc: !!str Living & working in Amsterdam after a stint working for Time Magazine in DC.
-- name: Jeff "Jaff" Vaudrin-Mcclean
-  instruments: Aux Percussion
-  years: Fall '05--Spring '09
-  etc: !!str India?
-- name: Anna Vanderhorst
-  instruments: Tenor
-  years: 05--'08
-  etc: !!str Going to medical school at UNC after two years of research at the UCSD Memory Research Laboratory
-- name: Zeev Saffir
-  instruments: Double Tenor, Tenor Bass, Tenor
-  years: 05--'08
-  etc: !!str Selling dental supplies, coding websites, & transcribing Panorama arrangements after a year of teaching steelpan at Horace Mann High School in New York.
-- name: Laila Williams
-  instruments: Aux Percussion
-  years: 05--'07
-  etc: !!str Dancing in Israel.
-- name: Katelyn Mueller
-  instruments: Cellos
-  years: 05--'07
-  etc: !!str Working for a video game production company in the San Francisco Bay Area.
-- name: Hannah Neprash
-  instruments: Double Seconds
-  years: '04--'07
-  etc: !!str Doing medicare policy research & writing limericks in Washington DC.
-- name: Paul Drake
-  instruments: Drum Set
-  years: '04--'07
-  etc: !!str Living in Carboro, NC.
-- name: Lenore Braford
-  instruments: Quads, Tenor
-  years: '04--'07
-  etc: !!str Making art in Asheville and farming in Australia.
-- name: Michael P. Geraci
-  instruments: Cellos, Tenor
-  years: '04--'07
-  etc: !!str Working as a co-founder on Reducify in NYC after a cross-country bike trip 
-- name: Katherine Erickson
-  instruments: Quads, Cellos, Double Tenor, Tenor
-  years: '03--'07
-  etc: !!str Playing with C. elegans in a lab at NYU. Plays annually for Sonatas steelband in NY panorama.
-- name: Stephen Lind
-  instruments: Double Seconds
-  years: '03--'06
-  etc: !!str Playing organ & doing software engineering in California/Switzerland. Plays annually for Sonatas steelband in NY panorama.
-- name: Wayne van Lieu
-  instruments: Aux Percussion
-  years: '03--'06
-  etc: !!str Living in Mexico.
-- name: Luke Eddins
-  instruments: Tenor
-  years: '03--'06
-  etc: !!str Living in New York City
-- name: Mia Casale
-  instruments: Tenor, Double Seconds
-  years: '03--'06
-  etc: !!str Living in Italy.
-- name: Nadia Fellah
-  instruments: Tenor, Seconds, Bass
-  years: '03--'06
-- name: Noah Smit
-  instruments: Drum Set
-  years: '01--'05, '08-'09
-  etc: !!str Living in Pittsburgh, PA after a stint in DC playing drumset for the Pan Masters Steel Orchestra. Recently played drumset for the winning bend in the Trinidad National Panorama 2008, Clico Sfortzata.
-- name: Emily Schultz
-  instruments: Tenor, Cellos
-  years: '02--'05
-- name: Carolyn Mraz
-  instruments: Cellos, Double Seconds, Tenor
-  years: '03--'05
-- name: Andy Callaway
-  instruments: Aux Percussion
-  years: '02--'05
-  etc: !!str Living in Aspen, CO, giving snowmobile tours.
-- name: Ryan Brazell
-  instruments: Quads, Bass, Double Tenor, Aux Percussion
-  years: '03--'05, '07--'08
-  etc: !!str Living in San Francisco.
-- name: Abigail Sackmann
-  instruments: Double Seconds
-  years: '05
-- name: Timothy Gibbon
-  instruments: Aux Percussion
-  years: '01--'04
-  etc: !!str Living in DC?
-- name: Oliver
-  instruments: Cellos
-  years: ?--'04
-- name: Nansamba Ssensalo
-  instruments: Tenor, Bass
-  years: '01--'04
-  etc: !!str Tagging music for Pandora in CA.
-- name: Adam Czernikowski
-  instruments: Cellos
-  years: '03--'04
-  etc: !!str Graduate Studies at the University of Florida. 
-- name: Tessa Shanks
-  instruments: Double Seconds
-  years: '02--'04
-  etc: !!str Working in New York City
-- name: Sarah Buck
-  instruments: Cellos
-  years: '01--'03
-- name: Lilly Rosenman
-  instruments: Tenor
-  years: '00--'03
-- name: Cat Richert
-  instruments: Double Seconds
-  years: '01-'03
-- name: Amy Cobden
-  instruments: Tenor, Quads
-  years: '01-'03
-- name: Patia Maule
-  instruments: Tenor, Bass
-  years: '00-'03
-  etc: !!str Teaches Spanish in Maine and performs with community steelbands there.
-- name: Scott Weaver
-  instruments: Cellos
-  years: '01--'03
-  etc: !!str Germany?
-- name: Leah Patriarco
-  instruments: Tenor, Bass
-  years: '01--'03
-  etc: !!str Graduate studies at Northwestern.
-- name: Joaquin Espinoza
-  instruments: Aux Percussion
-  years: '02
-- name: Peter Meredith
-  years: '02
-- name: Anne Siegler
-  years: '02
-- name: Connie Brichford
-  instruments: Cellos
-  years: '02
-- name: Abigail Chapin
-  years: '02
-- name: Tom Jeanne
-  instruments: Tenor, Bass
-  years: '99-'02
-  etc: !!str Residing in Madison, WI.
-- name: Stefan "Mr. President" Kamola
-  instruments: Tenor, Bass
-  years: '00--'01
-  etc: !!str In Siberia throatsinging on a Watson's fellowship.
-- name: Molly "Rusty" Benson
-  instruments: Double Seconds, Quads
-  years: '00--'01
-  etc: !!str In Los Angeles, working with movie stars.
-- name: Luke "Mindy" Fasano
-  instruments: Drum Set, Aux Percussion
-  years: '99--'01
-  etc: !!str Working in Manhattan.
-- name: Jess "Honey Brown" Boehland
-  instruments: Cellos
-  years: '98--'01
-  etc: !!str East Coast somewhere?
-- name: Lillian "Sunset" Kehler
-  instruments: Cellos
-  years: '98--'01
-  etc: !!str In California.
-- name: Alexa "Genius" Kunitsugu
-  instruments: Double Seconds, Quads
-  years: '97--'01
-  etc: !!str In Seattle?
-- name: Jackie "Surdu Crack Lady" Davis
-  instruments: Cellos
-  years: '98--'01
-  etc: !!str In Alaska.
-- name: Alex "The Noo" Pojedinec
-  instruments: Double Seconds
-  years: '00
-- name: Jibrail "Tex" Nor
-  instruments: Drum Set, Double Seconds
-  years: '97--'00
-- name: Jen "Don't Mess With Me" Prosser
-  instruments: Tenor
-  years: '97--'00
-- name: Eric "Sinead" Suquet
-  instruments: Aux Percussion, Tenor, Cellos
-  years: '96--'00
-- name: Matt "Sally" Norton
-  instruments: Double Seconds, Drum Set, Aux Percussion
-  years: '97--'99
-- name: Amber "Quatsch" Ries
-  instruments: Double Seconds
-  years: '97--'99
-- name: Kristen "Captain Carrot" Jones
-  instruments: Double Seconds, Bass
-  years: '96-'99
-  etc: !!str Playing seconds with Panmasters in DC.
-- name: Amanda "I Am Such A Slackah! (She Really Is!)" Brady
-  instruments: Cellos
-  years: '98--'01
-  etc: !!str Living in DC, playing tenor with Panmasters
-- name: Liz "Cheese Nomad" Blayney
-  instruments: Cellos, Bass
-  years: '98
-- name: Matt "Double-Diamond" Hill
-  instruments: Aux Percussion, Cellos
-  years: '98
-- name: Laura "The Enigmatic" Slocum
-  instruments: Tenor, Aux Percussion
-  years: '98
-- name: Yoko "Can You Ski?" Endo
-  instruments: Cellos, Percussion
-  years: '97
-  etc: !!str Working as a research assistant in Tokyo at Capital Research Company, an American asset management company.
-- name: Alan Wiser
-- name: Samir Succar
-  instruments: Tenor, Double Seconds, Aux Percussion
-  years: '97
-- name: Devon Levy Strolovich
-  instruments: Double Seconds
-  years: '97
-  etc: !!str Ph.D. in Liinguistics
-- name: David "Bacchanal" Silva
-  instruments: Tenor, Aux Percussion
-  years: '97
-- name: Aashish Sunil Mehta
-  instruments: Bass, Cellos, Tenor
-  years: '97
-- name: Joel "Shakin" Hamburger
-  instruments: Tenor, Double Seconds
-  years: '97
-- name: Pat "Oh Baby" Buzby
-  instruments: Drum Set
-  years: '97
-- name: Erin Marks
-  instruments: Tenor
-  years: '96
-- name: Margaret Ewing
-  instruments: Tenor
-  years: '96
-- name: Nikki Bartnicki
-  instruments: Cellos
-  years: '96
-- name: Aryaman Shalizi
-  instruments: Cellos
-  years: '96
-- name: Rhian Davies
-  instruments: Double Seconds
-  years: '96
-- name: Sara R. Webb
-  instruments: Bass, Cellos
-  years: '96
-- name: Ian S. Hisert
-- name: Amy Cullinan
-  instruments: Cellos
-  years: '95
-- name: Ben Shaykin 
-  instruments: Double Seconds
-  years: '95
-- name: Katie "Katydid" Tallman
-  instruments: Cellos, Double Seconds
-  years: '95
-- name: Ellen "Thrifty, AKA Java" Clegg
-  instruments: Cellos, Tenor
-  years: '95
-- name: Lisa Collins
-  instruments: Cellos
-  years: '94
-- name: Robbyn Kistler
-  instruments: Tenor
-  years: '94
-- name: Carlos "Curiously Strong" Walker
-  instruments: Aux Percussion
-  years: '94
-- name: Jason "Barq's" Ritt
-  instruments: Bass, Cellos
-  years: '94
-- name: Amy "U Turn" Floyd
-  instruments: Double Seconds
-  years: '94
-- name: Ian "Ejan" Kisert
-  instruments: Tenor
-  years: '94
-- name: Cynthia McGregor
-  instruments: Double Seconds
-  years: '94
-- name: Alexis "Turbo" Collins
-  instruments: Double Seconds, Tenor
-  years: '94
-- name: Brian Bartel
-  instruments: Drum Set
-  years: '93
-- name: Trudy "The Intruder" Wyss
-  instruments: Double Seconds
-  years: '93
-- name: Mak "Mac Daddy" Saito
-  instruments: Cellos
-  years: '93
-- name: Dan "Back Door", AKA "Boogie" Shafer
-  instruments: Tenor
-  years: '93
-- name: Jesse Rowe
-  years: '92
-- name: Justin Dudley
-  instruments: Double Seconds
-  years: '92
-- name: Chris "Barbalute", AKA "Boomboom" Gates
-  instruments: Drum Set
-  years: '92
-- name: Evan Brubaker
-  instruments: Bass, Drum Set, Cellos
-  years: '90--'92
-- name: Jason Mittell
-  instruments: Cellos
-  years: '90--'91
-- name: Anna Talamo 
-  instruments: Double Seconds
-  years: '91
-- name: Andy "The Flash" Russ
-  instruments: Aux Percussion
-  years: '90--'92
-- name: Joshua Rothkopf
-  instruments: Bass
-  years: 90s
-- name: Tom "Stretch" McFadden
-  instruments: Cellos
-  years: 90s
-- name: Craig "Air Devo" McCord
-  instruments: Cellos
-  years: '90--'92
-- name: Cassie Dragt
-  years: '89--'91
-- name: Carol "Ace" Arthur
-  instruments: Double Seconds
-  years: '89--'91
-- name: Pete "Dr. Hand" Wolfram
-  instruments: Tenor
-  years: 90s
-- name: Keauxgeigh "Koji" Li
-  instruments: Tenor
-  years: '92
-- name: Myla "Torpedo" Goldberg
-  instruments: Tenor
-  years: '93
-- name: Janet Lewis
-  years: '90--'92
-- name: Lucy Dickinson
-  instruments: Cellos, Drum Set
-  years: '89--'91
-- name: Alison Hinderliter
-  instruments: Tenor 
-  years: '87--'89
-- name: Ben Cohen
-  instruments: Tenor, Double Seconds, Bass
-  years: '85--'88
-- name: John Campbell
-  instruments: Cellos
-  years: '89
-- name: Brian Rice
-  instruments: Congas
-  years: '89
-- name: Josh Pawelek
-  instruments: Drum Set
-  years: '89
-- name: Meighhan Matthews
-  instruments: Double Seconds
-  years: '85--'89
-- name: Sara Hotchkiss
-  instruments: Tenor
-  years: '87
-- name: Jessica Roberts
-  instruments: Tenor
-  years: '83--'86
-- name: Thomas Major
-  instruments: Bass, Aux Percussion
-  years: '86
-- name: Jennifer Kahle
-  instruments: Cellos
-  years: '85
-- name: Sarah
-  instruments: Cellos
-  years: '82--'85
-- name: Gavin Smith
-  instruments: Tenor
-  years: '82--'85
-- name: John Wertheimer
-  instruments: Tenor
-  years: '81--'85
-- name: Amy Kelley
-  instruments: Double Seconds
-  years: '84
-- name: Bob Bedell
-  instruments: Bass
-  years: '82--'84
-- name: Alan Hermann
-  instruments: Tenor
-  years: '80--'84
-- name: John Michener - original
-  instruments: Bass
-  years: '79--'83
-- name: Lalit Loomba
-  instruments: Bass
-  years: '82--'85
-- name: Lee Erickson
-  instruments: Double Seconds
-  years: '82--'85
-- name: Orestes
-  instruments: Drum Set
-  years: '82--'85
-- name: Cara Coburn 
-  instruments: Double Seconds
-  years: '82--'87
-- name: Thomas Converse
-  instruments: Cellos
-  years: '83--'84
-- name: Leon Alexander
-  instruments: Drum Set
-  years: '81--'82
-- name: Tracey Tsugawa 
-  instruments: Double Seconds
-  years: '82--'84
-- name: Stuart Paton
-  instruments: Aux Percussion
-  years: '83--'85
-- name: Roger Stratton
-  instruments: Double Seconds
-  years: '85--'87
-- name: Daniel Gilfix 
-  instruments: Drum Set
-  years: '84
-- name: Naomi
-  instruments: Double Seconds
-  years: '84
-- name: David Dunn - original
-  instruments: Tenor, Aux Percussion
-  years: '81--'83
-- name: Josh Searle-White
-  instruments: Cellos
-  years: '81--'82
-- name: Linda Papademas 
-  instruments: Tenor, Aux Percussion
-  years: '83--'85
-- name: Jim Rich - original
-  instruments: Drum Set, Aux Percussion
-  years: '81
-- name: Carl Radens - original
-  instruments: Aux Percussion
-  years: '81
-- name: Doug Schulkind - original
-  instruments: Aux Percussion
-  years: '80--'83
-- name: Jim Chlebak - original
-  instruments: Cellos
-  years: '81
-- name: John Jutsum - original
-  instruments: Tenor
-  years: '81
-- name: Peter Pollack - original
-  instruments: Tenor
-  years: '81
-- name: Zoe Sherinian - original
-  instruments: Double Tenors
-  years: '79--'83
-- name: Howard J. Supnik
-  instruments: Drum Set, Aux Percussion
-  years: '83
-- name: Shannon Dudley - original
-  instruments: Double Seconds
-  years: '79--'82
-- name: Mike Geller - FOUNDER
-  instruments: Double Seconds
-  years: '79--'83
-- name: Toby Gordon - FOUNDER
-  instruments: Double Seconds
-  years: '79--'82
-- name: Peter L. Mayer - FOUNDER
-  instruments: Tenor
-  years: '79--'82
+# members: 
+# - name: Noah Jones
+#   instruments: Double Tenor, Aux Percussion
+#   years: Spring '11--Spring '14
+# - name: James Luttrell
+#   instruments: Drum Set, Aux Percussion
+#   years: Spring '11--Spring '14
+# - name: Tom Rathe
+#   instruments: Double Seconds, Aux Percussion
+#   years: Spring '11--Spring '14
+# - name: Toby Irving
+#   instruments: Tenor Bass, Double Tenor
+#   years: Fall '11--Spring '14
+# - name: Katie Rotman
+#   instruments: Tenor
+#   years: Fall '11--Spring '14
+# - name: Becky Jones
+#   instruments: Double Seconds, Tenor
+#   years: Spring '12--Spring '14
+# - name: Matt Gold
+#   instruments: Drum Set, Double Seconds
+#   years: Fall '09--Spring '13
+#   etc: !!str Making music in Chicago.
+# - name: Summer Lusk
+#   instruments: Cellos
+#   years: Fall '09--Spring '13
+#   etc: !!str Masters student and graduate teaching assistant at the University of Colorado. Freelancing/researching/producing music on the side.
+# - name: Alicia Dudziak
+#   instruments: Double Seconds, Tenor
+#   years: Fall '10--Spring '13
+#   etc: !!str Living in Seattle, nannying and generally loving life.
+# - name: Anabel Hirano
+#   instruments: Tenor Bass, Tenor
+#   years: Fall '10--Spring '13
+#   etc: !!str Living in Tokyo on a Shansi Fellowship.
+# - name: June Hong
+#   instruments: Cellos, Double Tenor
+#   years: Fall '10--Spring '13
+#   etc: !!str Chillin in the Bay Area.
+# - name: Cate Hughes
+#   instruments: Tenor
+#   years: Fall '11--Spring '13
+# - name: Eston Schweickart
+#   instruments: Quads
+#   years: Fall '12--Spring '13
+#   etc: !!str Exploring the realms of academia from a computational perspective in Ithaca, NY.
+# - name: Anne Thompson
+#   instruments: Double Tenor, Tenor
+#   years: Spring ’09–Spring ’12
+#   etc: !!str Teaching English near Clermont-Ferrand, France.
+# - name: Chris Canning
+#   instruments: Six Bass, Tenor
+#   years: Fall ’09–Spring ’12
+#   etc: !!str Interning for the NYC Department of Parks and Recreation.
+# - name: Caroline Chen
+#   instruments: Quads
+#   years: Fall ’09–Spring ’12
+# - name: Jeremy Siegel
+#   instruments: Tenor
+#   years: Fall ’09–Spring ’12
+# - name: Will Georges
+#   instruments: Drum Set
+#   years: Fall ’09–Spring ’12
+#   etc: !!str Teaching for America on the Big Island in Hawaii.
+# - name: Galen Rogers
+#   instruments: Cellos
+#   years: Spring ’10–Spring ’12
+#   etc: !!str Left his soul in the Badlands.
+# - name: Meade Klingensmith
+#   instruments: Tenor
+#   years: Fall ’10–Spring ’12
+#   etc: !!str Research assistant at a public policy journal in NYC.
+# - name: Rosa Tu
+#   instruments: Tenor Bass
+#   years: Spring '09--Spring '11 
+#   etc: !!str Traveling to Ukraine
+# - name: Leah "Sharpshooter" Baskt
+#   instruments: Tenor
+#   years: Spring '08--Spring '09
+#   etc: !!str Grad student in neuroscience at UW in Seattle.
+# - name: Tyler Stoll
+#   instruments: Tenor/Double Tenor
+#   years: Fall '08-Spring '11
+#   etc: !!str Raising ducks, slaughtering rabbits, and doing non-profit work in Durham, NC.
+# - name: Rachel Saudek
+#   instruments: Double Seconds
+#   years: Fall '08-Spring '11
+# - name: Katarina Lunde
+#   instruments: Tenor, Quads
+#   years: Spring '09--Spring '11 
+#   etc: !!str Being awesome.
+# - name: Shannon Rieke
+#   instruments: Aux Percussion
+#   years: Spring '08--Spring '10
+#   etc: !!str Going to law school.
+# - name: Joe McCall
+#   instruments: Tenor, Six Bass
+#   years: Spring '08--Spring '10
+#   etc: !!str Teaching in his hometown of Charlottesville, VA.
+# - name: Luke Hoffman
+#   instruments: Drum Set
+#   years: Spring '08--Fall '09
+#   etc: !!str Running a painting business in Oberlin.
+# - name: Sarah "Bruiser" Brabinski
+#   instruments: Tenor
+#   years: Fall '08--Spring '11
+#   etc: !!str Biology research assistant at Case Western
+# - name: Rebecca Eiseman
+#   instruments: Quads
+#   years: Fall '07--Spring '09
+#   etc: !!str Working at a neighborhood market in San Francisco & playing with the CSM Panhandlers.
+# - name: Nathaniel "Natty Boom-Boom" Meyer
+#   instruments: Tenor
+#   years: Spring '07--Spring '09
+#   etc: !!str Working for Green Corps in PA
+# - name: Lam La
+#   instruments: Double Tenor
+#   years: Fall '07--Spring '10
+#   etc: !!str Building furniture in Boston.
+# - name: Becca Page
+#   instruments: Double Seconds
+#   years: Fall '07--Spring '10
+#   etc: !!str In China on Fulbright scholarship.
+# - name: Zach Diamond
+#   instruments: Cellos
+#   years: Fall '07--Spring '10
+#   etc: !!str In Peru on a Fulbright scholarship.
+# - name: Zeke Runyon
+#   instruments: Double Seconds
+#   years: Spring '07--Spring '10
+#   etc: !!str Living in San Francisco and working at a fruit company
+# - name: Andrew Lawrence
+#   instruments: Six Bass, Tenor Bass, Double Seconds, Aux Percussion
+#   years: Spring '07--Spring '10
+#   etc: !!str Playing with Organ Yank in Chicago.
+# - name: Phil Kingsmith
+#   instruments: Tenor, Cello, Aux Percussion
+#   years: Fall '06--Fall '09
+#   etc: !!str Playing music in Philly.
+# - name: Toussaint Mears-Clarke
+#   instruments: Tenor Bass
+#   years: Fall '06--Spring '09
+#   etc: !!str At the University of Chicago Medical School.
+# - name: Mona Barber
+#   instruments: Double Seconds, Tenor
+#   years: Spring '06--Spring '09
+#   etc: !!str Working at a violin shop in Seattle and sailing quite frequently.
+# - name: Pete Steffy
+#   instruments: Aux Percussion
+#   years: 06--'08
+#   etc: !!str In Mexico on a Fulbright Scholarship.
+# - name: Sam Lasser
+#   instruments: Double Seconds
+#   years: 06--'08
+#   etc: !!str Teaching English in Oman
+# - name: Jody-Ann Allen
+#   instruments: Tenor
+#   years: 06--'08
+# - name: Maya Curry
+#   instruments: Tenor
+#   years: 06--'08
+#   etc: !!str Living & working in Amsterdam after a stint working for Time Magazine in DC.
+# - name: Jeff "Jaff" Vaudrin-Mcclean
+#   instruments: Aux Percussion
+#   years: Fall '05--Spring '09
+#   etc: !!str India?
+# - name: Anna Vanderhorst
+#   instruments: Tenor
+#   years: 05--'08
+#   etc: !!str Going to medical school at UNC after two years of research at the UCSD Memory Research Laboratory
+# - name: Zeev Saffir
+#   instruments: Double Tenor, Tenor Bass, Tenor
+#   years: 05--'08
+#   etc: !!str Selling dental supplies, coding websites, & transcribing Panorama arrangements after a year of teaching steelpan at Horace Mann High School in New York.
+# - name: Laila Williams
+#   instruments: Aux Percussion
+#   years: 05--'07
+#   etc: !!str Dancing in Israel.
+# - name: Katelyn Mueller
+#   instruments: Cellos
+#   years: 05--'07
+#   etc: !!str Working for a video game production company in the San Francisco Bay Area.
+# - name: Hannah Neprash
+#   instruments: Double Seconds
+#   years: '04--'07
+#   etc: !!str Doing medicare policy research & writing limericks in Washington DC.
+# - name: Paul Drake
+#   instruments: Drum Set
+#   years: '04--'07
+#   etc: !!str Living in Carboro, NC.
+# - name: Lenore Braford
+#   instruments: Quads, Tenor
+#   years: '04--'07
+#   etc: !!str Making art in Asheville and farming in Australia.
+# - name: Michael P. Geraci
+#   instruments: Cellos, Tenor
+#   years: '04--'07
+#   etc: !!str Working as a co-founder on Reducify in NYC after a cross-country bike trip 
+# - name: Katherine Erickson
+#   instruments: Quads, Cellos, Double Tenor, Tenor
+#   years: '03--'07
+#   etc: !!str Playing with C. elegans in a lab at NYU. Plays annually for Sonatas steelband in NY panorama.
+# - name: Stephen Lind
+#   instruments: Double Seconds
+#   years: '03--'06
+#   etc: !!str Playing organ & doing software engineering in California/Switzerland. Plays annually for Sonatas steelband in NY panorama.
+# - name: Wayne van Lieu
+#   instruments: Aux Percussion
+#   years: '03--'06
+#   etc: !!str Living in Mexico.
+# - name: Luke Eddins
+#   instruments: Tenor
+#   years: '03--'06
+#   etc: !!str Living in New York City
+# - name: Mia Casale
+#   instruments: Tenor, Double Seconds
+#   years: '03--'06
+#   etc: !!str Living in Italy.
+# - name: Nadia Fellah
+#   instruments: Tenor, Seconds, Bass
+#   years: '03--'06
+# - name: Noah Smit
+#   instruments: Drum Set
+#   years: '01--'05, '08-'09
+#   etc: !!str Living in Pittsburgh, PA after a stint in DC playing drumset for the Pan Masters Steel Orchestra. Recently played drumset for the winning bend in the Trinidad National Panorama 2008, Clico Sfortzata.
+# - name: Emily Schultz
+#   instruments: Tenor, Cellos
+#   years: '02--'05
+# - name: Carolyn Mraz
+#   instruments: Cellos, Double Seconds, Tenor
+#   years: '03--'05
+# - name: Andy Callaway
+#   instruments: Aux Percussion
+#   years: '02--'05
+#   etc: !!str Living in Aspen, CO, giving snowmobile tours.
+# - name: Ryan Brazell
+#   instruments: Quads, Bass, Double Tenor, Aux Percussion
+#   years: '03--'05, '07--'08
+#   etc: !!str Living in San Francisco.
+# - name: Abigail Sackmann
+#   instruments: Double Seconds
+#   years: '05
+# - name: Timothy Gibbon
+#   instruments: Aux Percussion
+#   years: '01--'04
+#   etc: !!str Living in DC?
+# - name: Oliver
+#   instruments: Cellos
+#   years: ?--'04
+# - name: Nansamba Ssensalo
+#   instruments: Tenor, Bass
+#   years: '01--'04
+#   etc: !!str Tagging music for Pandora in CA.
+# - name: Adam Czernikowski
+#   instruments: Cellos
+#   years: '03--'04
+#   etc: !!str Graduate Studies at the University of Florida. 
+# - name: Tessa Shanks
+#   instruments: Double Seconds
+#   years: '02--'04
+#   etc: !!str Working in New York City
+# - name: Sarah Buck
+#   instruments: Cellos
+#   years: '01--'03
+# - name: Lilly Rosenman
+#   instruments: Tenor
+#   years: '00--'03
+# - name: Cat Richert
+#   instruments: Double Seconds
+#   years: '01-'03
+# - name: Amy Cobden
+#   instruments: Tenor, Quads
+#   years: '01-'03
+# - name: Patia Maule
+#   instruments: Tenor, Bass
+#   years: '00-'03
+#   etc: !!str Teaches Spanish in Maine and performs with community steelbands there.
+# - name: Scott Weaver
+#   instruments: Cellos
+#   years: '01--'03
+#   etc: !!str Germany?
+# - name: Leah Patriarco
+#   instruments: Tenor, Bass
+#   years: '01--'03
+#   etc: !!str Graduate studies at Northwestern.
+# - name: Joaquin Espinoza
+#   instruments: Aux Percussion
+#   years: '02
+# - name: Peter Meredith
+#   years: '02
+# - name: Anne Siegler
+#   years: '02
+# - name: Connie Brichford
+#   instruments: Cellos
+#   years: '02
+# - name: Abigail Chapin
+#   years: '02
+# - name: Tom Jeanne
+#   instruments: Tenor, Bass
+#   years: '99-'02
+#   etc: !!str Residing in Madison, WI.
+# - name: Stefan "Mr. President" Kamola
+#   instruments: Tenor, Bass
+#   years: '00--'01
+#   etc: !!str In Siberia throatsinging on a Watson's fellowship.
+# - name: Molly "Rusty" Benson
+#   instruments: Double Seconds, Quads
+#   years: '00--'01
+#   etc: !!str In Los Angeles, working with movie stars.
+# - name: Luke "Mindy" Fasano
+#   instruments: Drum Set, Aux Percussion
+#   years: '99--'01
+#   etc: !!str Working in Manhattan.
+# - name: Jess "Honey Brown" Boehland
+#   instruments: Cellos
+#   years: '98--'01
+#   etc: !!str East Coast somewhere?
+# - name: Lillian "Sunset" Kehler
+#   instruments: Cellos
+#   years: '98--'01
+#   etc: !!str In California.
+# - name: Alexa "Genius" Kunitsugu
+#   instruments: Double Seconds, Quads
+#   years: '97--'01
+#   etc: !!str In Seattle?
+# - name: Jackie "Surdu Crack Lady" Davis
+#   instruments: Cellos
+#   years: '98--'01
+#   etc: !!str In Alaska.
+# - name: Alex "The Noo" Pojedinec
+#   instruments: Double Seconds
+#   years: '00
+# - name: Jibrail "Tex" Nor
+#   instruments: Drum Set, Double Seconds
+#   years: '97--'00
+# - name: Jen "Don't Mess With Me" Prosser
+#   instruments: Tenor
+#   years: '97--'00
+# - name: Eric "Sinead" Suquet
+#   instruments: Aux Percussion, Tenor, Cellos
+#   years: '96--'00
+# - name: Matt "Sally" Norton
+#   instruments: Double Seconds, Drum Set, Aux Percussion
+#   years: '97--'99
+# - name: Amber "Quatsch" Ries
+#   instruments: Double Seconds
+#   years: '97--'99
+# - name: Kristen "Captain Carrot" Jones
+#   instruments: Double Seconds, Bass
+#   years: '96-'99
+#   etc: !!str Playing seconds with Panmasters in DC.
+# - name: Amanda "I Am Such A Slackah! (She Really Is!)" Brady
+#   instruments: Cellos
+#   years: '98--'01
+#   etc: !!str Living in DC, playing tenor with Panmasters
+# - name: Liz "Cheese Nomad" Blayney
+#   instruments: Cellos, Bass
+#   years: '98
+# - name: Matt "Double-Diamond" Hill
+#   instruments: Aux Percussion, Cellos
+#   years: '98
+# - name: Laura "The Enigmatic" Slocum
+#   instruments: Tenor, Aux Percussion
+#   years: '98
+# - name: Yoko "Can You Ski?" Endo
+#   instruments: Cellos, Percussion
+#   years: '97
+#   etc: !!str Working as a research assistant in Tokyo at Capital Research Company, an American asset management company.
+# - name: Alan Wiser
+# - name: Samir Succar
+#   instruments: Tenor, Double Seconds, Aux Percussion
+#   years: '97
+# - name: Devon Levy Strolovich
+#   instruments: Double Seconds
+#   years: '97
+#   etc: !!str Ph.D. in Liinguistics
+# - name: David "Bacchanal" Silva
+#   instruments: Tenor, Aux Percussion
+#   years: '97
+# - name: Aashish Sunil Mehta
+#   instruments: Bass, Cellos, Tenor
+#   years: '97
+# - name: Joel "Shakin" Hamburger
+#   instruments: Tenor, Double Seconds
+#   years: '97
+# - name: Pat "Oh Baby" Buzby
+#   instruments: Drum Set
+#   years: '97
+# - name: Erin Marks
+#   instruments: Tenor
+#   years: '96
+# - name: Margaret Ewing
+#   instruments: Tenor
+#   years: '96
+# - name: Nikki Bartnicki
+#   instruments: Cellos
+#   years: '96
+# - name: Aryaman Shalizi
+#   instruments: Cellos
+#   years: '96
+# - name: Rhian Davies
+#   instruments: Double Seconds
+#   years: '96
+# - name: Sara R. Webb
+#   instruments: Bass, Cellos
+#   years: '96
+# - name: Ian S. Hisert
+# - name: Amy Cullinan
+#   instruments: Cellos
+#   years: '95
+# - name: Ben Shaykin 
+#   instruments: Double Seconds
+#   years: '95
+# - name: Katie "Katydid" Tallman
+#   instruments: Cellos, Double Seconds
+#   years: '95
+# - name: Ellen "Thrifty, AKA Java" Clegg
+#   instruments: Cellos, Tenor
+#   years: '95
+# - name: Lisa Collins
+#   instruments: Cellos
+#   years: '94
+# - name: Robbyn Kistler
+#   instruments: Tenor
+#   years: '94
+# - name: Carlos "Curiously Strong" Walker
+#   instruments: Aux Percussion
+#   years: '94
+# - name: Jason "Barq's" Ritt
+#   instruments: Bass, Cellos
+#   years: '94
+# - name: Amy "U Turn" Floyd
+#   instruments: Double Seconds
+#   years: '94
+# - name: Ian "Ejan" Kisert
+#   instruments: Tenor
+#   years: '94
+# - name: Cynthia McGregor
+#   instruments: Double Seconds
+#   years: '94
+# - name: Alexis "Turbo" Collins
+#   instruments: Double Seconds, Tenor
+#   years: '94
+# - name: Brian Bartel
+#   instruments: Drum Set
+#   years: '93
+# - name: Trudy "The Intruder" Wyss
+#   instruments: Double Seconds
+#   years: '93
+# - name: Mak "Mac Daddy" Saito
+#   instruments: Cellos
+#   years: '93
+# - name: Dan "Back Door", AKA "Boogie" Shafer
+#   instruments: Tenor
+#   years: '93
+# - name: Jesse Rowe
+#   years: '92
+# - name: Justin Dudley
+#   instruments: Double Seconds
+#   years: '92
+# - name: Chris "Barbalute", AKA "Boomboom" Gates
+#   instruments: Drum Set
+#   years: '92
+# - name: Evan Brubaker
+#   instruments: Bass, Drum Set, Cellos
+#   years: '90--'92
+# - name: Jason Mittell
+#   instruments: Cellos
+#   years: '90--'91
+# - name: Anna Talamo 
+#   instruments: Double Seconds
+#   years: '91
+# - name: Andy "The Flash" Russ
+#   instruments: Aux Percussion
+#   years: '90--'92
+# - name: Joshua Rothkopf
+#   instruments: Bass
+#   years: 90s
+# - name: Tom "Stretch" McFadden
+#   instruments: Cellos
+#   years: 90s
+# - name: Craig "Air Devo" McCord
+#   instruments: Cellos
+#   years: '90--'92
+# - name: Cassie Dragt
+#   years: '89--'91
+# - name: Carol "Ace" Arthur
+#   instruments: Double Seconds
+#   years: '89--'91
+# - name: Pete "Dr. Hand" Wolfram
+#   instruments: Tenor
+#   years: 90s
+# - name: Keauxgeigh "Koji" Li
+#   instruments: Tenor
+#   years: '92
+# - name: Myla "Torpedo" Goldberg
+#   instruments: Tenor
+#   years: '93
+# - name: Janet Lewis
+#   years: '90--'92
+# - name: Lucy Dickinson
+#   instruments: Cellos, Drum Set
+#   years: '89--'91
+# - name: Alison Hinderliter
+#   instruments: Tenor 
+#   years: '87--'89
+# - name: Ben Cohen
+#   instruments: Tenor, Double Seconds, Bass
+#   years: '85--'88
+# - name: John Campbell
+#   instruments: Cellos
+#   years: '89
+# - name: Brian Rice
+#   instruments: Congas
+#   years: '89
+# - name: Josh Pawelek
+#   instruments: Drum Set
+#   years: '89
+# - name: Meighhan Matthews
+#   instruments: Double Seconds
+#   years: '85--'89
+# - name: Sara Hotchkiss
+#   instruments: Tenor
+#   years: '87
+# - name: Jessica Roberts
+#   instruments: Tenor
+#   years: '83--'86
+# - name: Thomas Major
+#   instruments: Bass, Aux Percussion
+#   years: '86
+# - name: Jennifer Kahle
+#   instruments: Cellos
+#   years: '85
+# - name: Sarah
+#   instruments: Cellos
+#   years: '82--'85
+# - name: Gavin Smith
+#   instruments: Tenor
+#   years: '82--'85
+# - name: John Wertheimer
+#   instruments: Tenor
+#   years: '81--'85
+# - name: Amy Kelley
+#   instruments: Double Seconds
+#   years: '84
+# - name: Bob Bedell
+#   instruments: Bass
+#   years: '82--'84
+# - name: Alan Hermann
+#   instruments: Tenor
+#   years: '80--'84
+# - name: John Michener - original
+#   instruments: Bass
+#   years: '79--'83
+# - name: Lalit Loomba
+#   instruments: Bass
+#   years: '82--'85
+# - name: Lee Erickson
+#   instruments: Double Seconds
+#   years: '82--'85
+# - name: Orestes
+#   instruments: Drum Set
+#   years: '82--'85
+# - name: Cara Coburn 
+#   instruments: Double Seconds
+#   years: '82--'87
+# - name: Thomas Converse
+#   instruments: Cellos
+#   years: '83--'84
+# - name: Leon Alexander
+#   instruments: Drum Set
+#   years: '81--'82
+# - name: Tracey Tsugawa 
+#   instruments: Double Seconds
+#   years: '82--'84
+# - name: Stuart Paton
+#   instruments: Aux Percussion
+#   years: '83--'85
+# - name: Roger Stratton
+#   instruments: Double Seconds
+#   years: '85--'87
+# - name: Daniel Gilfix 
+#   instruments: Drum Set
+#   years: '84
+# - name: Naomi
+#   instruments: Double Seconds
+#   years: '84
+# - name: David Dunn - original
+#   instruments: Tenor, Aux Percussion
+#   years: '81--'83
+# - name: Josh Searle-White
+#   instruments: Cellos
+#   years: '81--'82
+# - name: Linda Papademas 
+#   instruments: Tenor, Aux Percussion
+#   years: '83--'85
+# - name: Jim Rich - original
+#   instruments: Drum Set, Aux Percussion
+#   years: '81
+# - name: Carl Radens - original
+#   instruments: Aux Percussion
+#   years: '81
+# - name: Doug Schulkind - original
+#   instruments: Aux Percussion
+#   years: '80--'83
+# - name: Jim Chlebak - original
+#   instruments: Cellos
+#   years: '81
+# - name: John Jutsum - original
+#   instruments: Tenor
+#   years: '81
+# - name: Peter Pollack - original
+#   instruments: Tenor
+#   years: '81
+# - name: Zoe Sherinian - original
+#   instruments: Double Tenors
+#   years: '79--'83
+# - name: Howard J. Supnik
+#   instruments: Drum Set, Aux Percussion
+#   years: '83
+# - name: Shannon Dudley - original
+#   instruments: Double Seconds
+#   years: '79--'82
+# - name: Mike Geller - FOUNDER
+#   instruments: Double Seconds
+#   years: '79--'83
+# - name: Toby Gordon - FOUNDER
+#   instruments: Double Seconds
+#   years: '79--'82
+# - name: Peter L. Mayer - FOUNDER
+#   instruments: Tenor
+#   years: '79--'82

@@ -1,0 +1,5 @@
+name: Oberlin Steel
+markdown: redcarpet
+pygments: true
+permalink: /:title/
+image_url: /static/images
