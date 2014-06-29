@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<img class="img-responsive album-cover" src="{{ site.image_url }}/albums/{{ page.image }}">
+
+<h3>Tracks</h3>
+<ol>
+{% for track in page.tracks %}
+	<li><strong>{{ track.title }}</strong> {{ track.info }}</li>
+{% endfor %}
+</ol>
+
+{% if page.personnel %}
+	<h3>Personnel</h3>
+	<ul class="unstyled">
+	{% for person in page.personnel %}
+		<li><strong class="inline-h">{{ person.name }}</strong> {{ person.instrument }}</li>
+	{% endfor %}
+	</ul>
+{% endif %}
+
+<div class="info">
+	{{ content }}
+</div>

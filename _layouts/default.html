@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{{ page.title }}{% if page.title %} – {% endif %}{{ site.name }}</title>
+		<link rel="stylesheet" type="text/css" href="/static/css/bootstrap/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="/static/css/styles.css" />
+		<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+		<script type="text/javascript" src="/static/javascripts/modernizr.2.7.1.js"></script>
+		<script type="text/javascript" src="//use.typekit.net/nmn2wag.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	</head>
+	<body class="{{ page.body-class }}">
+		<nav class="navbar navbar-inverse" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/">Oberlin Steel</a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="/band">The Band</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/music">Music</a></li>
+						<li><a href="/shows">Shows</a></li>
+						<li><a href="/exco">ExCo</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>			
+		</nav>
+
+		<div id="body">
+			<div class="container">
+				{% if page.heading %}
+					<h1>{{ page.heading }}</h1>
+				{% else if page.title %}
+					<h1>{{ page.title }}</h1>
+				{% endif %}
+				<div class="box">
+					{{ content }}
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<div class="row-fluid">
+					<div class="col-sm-4">
+						<ul class="nav">
+							<li><a href="/band">The Band</a></li>
+							<li><a href="/about">About</a></li>
+							<li><a href="/music">Music</a></li>
+							<li><a href="/music">Music</a></li>
+							<li><a href="/shows">Shows</a></li>
+							<li><a href="http://www.oberlin.edu/stuorg/osteel/">Old Site</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<img src="/static/images/sticker.png" class="img-responsive center-block"/>
+					</div>
+					<div class="col-sm-4">
+						<p>Oberlin Steel 
+							<br/>Wilder Box 34 
+							<br/>135 West Lorain Street 
+							<br/>Oberlin, OH 44074</p>
+						<p><a href="mailto:oberlin.steel@oberlin.edu">oberlin.steel@oberlin.edu</a> 
+							<br/><a href="tel:4407758563">(440) 775-8563</a> 
+							<br/><a href="https://www.facebook.com/Oberlin.Steel">Facebook</a> 
+							/ <a href="https://twitter.com/Panyard_Musings">Twitter</a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript" src="/static/javascripts/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="/static/javascripts/jquery.backstretch.min.js"></script>
+		<script type="text/javascript" src="/static/javascripts/bootstrap/transition.js"></script>
+		{% if page.bg %}
+			<script type="text/javascript" src="/static/javascripts/bootstrap/collapse.js"></script>
+			<script type="text/javascript">
+				$("#body").backstretch("/static/images/backgrounds/{{ page.bg }}");
+			</script>
+		{% endif %}
+	</body>
+</html>
