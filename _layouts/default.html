@@ -5,11 +5,11 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>{{ page.title }}{% if page.title %} – {% endif %}{{ site.name }}</title>
-		<link rel="stylesheet" type="text/css" href="/static/css/bootstrap/bootstrap.css" />
-		<link rel="stylesheet" type="text/css" href="/static/css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/bootstrap/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/styles.css" />
 		<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
-		<script type="text/javascript" src="/static/javascripts/modernizr.2.7.1.js"></script>
-		<script type="text/javascript" src="//use.typekit.net/nmn2wag.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}static/javascripts/modernizr.2.7.1.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}/use.typekit.net/nmn2wag.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	</head>
 	<body class="{{ page.body-class }}">
@@ -22,15 +22,15 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="/">Oberlin Steel</a>
+					<a class="navbar-brand" href="{{ site.baseurl }}">Oberlin Steel</a>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse">
 					<ul class="nav navbar-nav">
-						<li><a href="/band">The Band</a></li>
-						<li><a href="/about">About</a></li>
-						<li><a href="/music">Music</a></li>
-						<li><a href="/shows">Shows</a></li>
-						<li><a href="/exco">ExCo</a></li>
+						<li><a href="{{ site.baseurl }}band">The Band</a></li>
+						<li><a href="{{ site.baseurl }}about">About</a></li>
+						<li><a href="{{ site.baseurl }}music">Music</a></li>
+						<li><a href="{{ site.baseurl }}shows">Shows</a></li>
+						<li><a href="{{ site.baseurl }}exco">ExCo</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div>			
@@ -54,15 +54,15 @@
 				<div class="row-fluid">
 					<div class="col-sm-4">
 						<ul class="nav">
-							<li><a href="/band">The Band</a></li>
-							<li><a href="/about">About</a></li>
-							<li><a href="/music">Music</a></li>
-							<li><a href="/shows">Shows</a></li>
+							<li><a href="{{ site.baseurl }}band">The Band</a></li>
+							<li><a href="{{ site.baseurl }}about">About</a></li>
+							<li><a href="{{ site.baseurl }}music">Music</a></li>
+							<li><a href="{{ site.baseurl }}shows">Shows</a></li>
 							<li><a href="http://www.oberlin.edu/stuorg/osteel/">Old Site</a></li>
 						</ul>
 					</div>
 					<div class="col-sm-4">
-						<img src="/static/images/sticker.png" class="img-responsive center-block"/>
+						<img src="{{ site.baseurl }}static/images/sticker.png" class="img-responsive center-block"/>
 					</div>
 					<div class="col-sm-4">
 						<p>Oberlin Steel 
@@ -77,13 +77,13 @@
 				</div>
 			</div>
 		</footer>
-		<script type="text/javascript" src="/static/javascripts/jquery-1.11.0.min.js"></script>
-		<script type="text/javascript" src="/static/javascripts/jquery.backstretch.min.js"></script>
-		<script type="text/javascript" src="/static/javascripts/bootstrap/transition.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}static/javascripts/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}static/javascripts/bootstrap/transition.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}static/javascripts/bootstrap/collapse.js"></script>
 		{% if page.bg %}
-			<script type="text/javascript" src="/static/javascripts/bootstrap/collapse.js"></script>
+			<script type="text/javascript" src="{{ site.baseurl }}static/javascripts/jquery.backstretch.min.js"></script>
 			<script type="text/javascript">
-				$("#body").backstretch("/static/images/backgrounds/{{ page.bg }}");
+				$("#body").backstretch("{{ site.baseurl }}static/images/backgrounds/{{ page.bg }}");
 			</script>
 		{% endif %}
 	</body>
