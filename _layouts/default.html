@@ -26,11 +26,7 @@
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse">
 					<ul class="nav navbar-nav">
-						<li><a href="{{ site.baseurl }}/band">The Band</a></li>
-						<li><a href="{{ site.baseurl }}/about">About</a></li>
-						<li><a href="{{ site.baseurl }}/music">Music</a></li>
-						<li><a href="{{ site.baseurl }}/shows">Shows</a></li>
-						<li><a href="{{ site.baseurl }}/exco">ExCo</a></li>
+						{% include nav.html %}
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div>			
@@ -54,10 +50,7 @@
 				<div class="row-fluid">
 					<div class="col-sm-4">
 						<ul class="nav">
-							<li><a href="{{ site.baseurl }}/band">The Band</a></li>
-							<li><a href="{{ site.baseurl }}/about">About</a></li>
-							<li><a href="{{ site.baseurl }}/music">Music</a></li>
-							<li><a href="{{ site.baseurl }}/shows">Shows</a></li>
+							{% include nav.html %}
 							<li><a href="http://www.oberlin.edu/stuorg/osteel/">Old Site</a></li>
 						</ul>
 					</div>
