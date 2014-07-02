@@ -19,6 +19,8 @@ b, strong {
   padding-top: 50px;
   padding-bottom: 100px;
   background-color: #dddddd;
+  background-size: 100%;
+  background-attachment: fixed;
 }
 
 footer {
@@ -142,7 +144,7 @@ h1 {
   text-shadow: white 2px 1.5px 0;
 }
 .inverse h1 {
-  text-shadow: none;
+  text-shadow: #222222 3px 2px 0;
 }
 
 .table > tbody > tr:first-child > td {

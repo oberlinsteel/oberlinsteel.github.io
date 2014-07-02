@@ -32,7 +32,7 @@
 			</div>			
 		</nav>
 
-		<div id="body">
+		<div id="body" style="background-image:url({{ site.baseurl }}/static/images/backgrounds/{{ page.bg }})">
 			<div class="container">
 				{% if page.heading %}
 					<h1>{{ page.heading }}</h1>
@@ -74,11 +74,11 @@
 		<script type="text/javascript" src="{{ site.baseurl }}/static/javascripts/bootstrap/transition.js"></script>
 		<script type="text/javascript" src="{{ site.baseurl }}/static/javascripts/bootstrap/collapse.js"></script>
 		<script type="text/javascript" src="{{ site.baseurl }}/static/javascripts/bootstrap/dropdown.js"></script>
-		{% if page.bg %}
+		<!-- {% if page.bg %}
 			<script type="text/javascript" src="{{ site.baseurl }}/static/javascripts/jquery.backstretch.min.js"></script>
 			<script type="text/javascript">
 				$("#body").backstretch("{{ site.baseurl }}/static/images/backgrounds/{{ page.bg }}");
 			</script>
-		{% endif %}
+		{% endif %} -->
 	</body>
 </html>

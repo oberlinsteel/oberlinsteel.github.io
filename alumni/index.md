@@ -9,8 +9,8 @@ heading: Alumni
 		<tr>
 			<td class="col-xs-3">{{ member.name }}</td>
 			<td class="col-xs-3">{{ member.instruments }}</td>
-			<td class="col-xs-3">{{ member.years }}</td>
-			<td class="col-xs-3">{{ member.etc }}</td>
+			<td class="col-xs-2">{{ member.years }}</td>
+			<td class="col-xs-4">{{ member.etc }}</td>
 		</tr>
 	{% endfor %}
 </table>
