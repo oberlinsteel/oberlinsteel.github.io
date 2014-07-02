@@ -180,21 +180,13 @@ h1 {
 }
 @media (min-width: 768px) {
   .inverse h1 {
+    color: white;
     text-shadow: #222222 3px 2px 0;
   }
 }
 
 .table > tbody > tr:first-child > td {
   border-top: none;
-}
-
-.inverse {
-  @media(min-width:$screen-sm-min) {
-    h1, .box {
-      color: white;
-    }
-}
-
 }
 
 .typekit-badge {

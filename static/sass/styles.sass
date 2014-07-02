@@ -124,16 +124,12 @@ h1
 		+text-shadow(white 2px 1.5px 0)
 	.inverse &
 		@media (min-width: $screen-sm-min)
+			+dark
 			+text-shadow($gray-darker 3px 2px 0)
 
 
 .table > tbody > tr:first-child > td
 	border-top: none
-
-.inverse
-	@media(min-width:$screen-sm-min)
-		h1, .box
-			+dark
 
 .typekit-badge
 	opacity: .3
