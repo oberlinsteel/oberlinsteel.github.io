@@ -1,27 +1,40 @@
 ---
 layout: default
 bg: music.jpg
-body-class: inverse
 ---
-<h2>{{ page.title }}</h2>
-<img class="img-responsive album-cover" src="{{ site.baseurl }}{{ site.image_url }}/albums/{{ page.image }}">
+<!-- <img class="img-responsive album-cover" src="{{ site.baseurl }}{{ site.image_url }}/albums/{{ page.image }}"> -->
 
-<h3>Tracks</h3>
+<h2>Tracks</h2>
 <ol>
 {% for track in page.tracks %}
 	<li><strong>{{ track.title }}</strong> {{ track.info }}</li>
 {% endfor %}
 </ol>
 
-{% if page.personnel %}
-	<h3>Personnel</h3>
-	<ul class="unstyled">
-	{% for person in page.personnel %}
-		<li><strong class="inline-h">{{ person.name }}</strong> {{ person.instrument }}</li>
-	{% endfor %}
-	</ul>
-{% endif %}
+<div class="row">
+	<div class="col-sm-6 col-sm-push-6">
+		{% if page.bandcamp %}<a href="http://oberlinsteel.bandcamp.com/album/{{ page.bandcamp }}">{% endif %}
+			<img class="img-responsive album-cover" src="{{ site.baseurl }}{{ site.image_url }}/albums/{{ page.image }}">
+			{% if page.bandcamp %}
+		</a>
+		<h4><a href="http://oberlinsteel.bandcamp.com/album/{{ page.bandcamp }}">Listen on Bandcamp</a></h4>
+		{% endif %}
+	</div>
+	<div class="col-sm-6 col-sm-pull-6">
+		{% if page.personnel %}
+			<h2>Personnel</h2>
+			<ul class="unstyled">
+			{% for person in page.personnel %}
+				<li><strong class="inline-h">{{ person.name }}</strong> {{ person.instrument }}</li>
+			{% endfor %}
+			</ul>
+		{% endif %}
 
-<div class="info">
-	{{ content }}
+		<div class="info">
+			{{ content }}
+		</div>
+	</div>
 </div>
+
+
+

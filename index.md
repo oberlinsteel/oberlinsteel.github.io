@@ -9,4 +9,4 @@ Oberlin Steel (OSteel) is based at Oberlin College in Oberlin, Ohio. Formed arou
 
 The band usually has 12-18 members, including tenor, double tenor, seconds, cello, quads, and bass pan players, as well as auxiliary percussionists and a set drummer. The group plays in the tradition of the great steel bands of Trinidad, but also performs arrangements of salsa, calypso, and jazz tunes as well as original compositions and arrangements by band members.
 
-Oberlin Steel has made six recordings in recent years. Check out the new one just released this spring: [Welcome to the Swanktuary]({{ site.baseurl }}/music/welcome-to-the-swanktuary).
+Oberlin Steel has made six recordings in recent years. Check out the new one just released this spring: [Welcome to the Swanktuary]({{ site.baseurl }}/albums/welcome-to-the-swanktuary).

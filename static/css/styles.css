@@ -3,6 +3,10 @@ body {
   font-weight: 200;
 }
 
+.dropdown-menu > li > a {
+  font-weight: 200;
+}
+
 table {
   font-weight: 300;
 }
@@ -32,6 +36,10 @@ iframe {
   max-width: 100%;
 }
 
+.margin-leader {
+  margin-top: 22px;
+}
+
 .margin-trailer {
   margin-bottom: 22px;
 }
@@ -45,7 +53,10 @@ iframe {
 }
 
 .album-cover {
-  max-width: 400px;
+  margin: 22px auto;
+}
+a > .album-cover {
+  margin-bottom: 0;
 }
 
 .container {
@@ -72,6 +83,49 @@ iframe {
   color: white;
 }
 
+.card {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin-bottom: 33px;
+  margin-left: -11px;
+  margin-right: -11px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+.inverse .card {
+  color: white;
+}
+.card img {
+  margin: 0 auto;
+}
+.card h4 {
+  margin-bottom: 4px;
+}
+@media (max-width: 767px) {
+  .card h4 {
+    margin-top: 0;
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    text-align: center;
+  }
+  .card:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .inverse .card:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media (min-width: 768px) {
+  .card-wrapper {
+    height: 300px;
+  }
+}
 .navbar {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -85,6 +139,10 @@ h1 {
   text-align: center;
   margin-bottom: 44px;
   font-size: 88px;
+  text-shadow: white 2px 1.5px 0;
+}
+.inverse h1 {
+  text-shadow: none;
 }
 
 .table > tbody > tr:first-child > td {
@@ -97,4 +155,8 @@ h1 {
 
 .typekit-badge {
   opacity: 0.3;
+}
+
+.table-hover > tbody > tr:hover > th, .table-hover > tbody > tr:hover > td {
+  background-color: rgba(255, 255, 255, 0.5);
 }

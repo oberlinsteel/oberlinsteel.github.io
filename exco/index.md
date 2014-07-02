@@ -2,6 +2,7 @@
 layout: default
 title: ExCo
 bg: exco.jpg
+body-class: inverse
 ---
 
 The **Steel Drum ExCo** is offered every semester to interested college and conservatory students. Non-students are sometimes (but rarely) accepted, depending on space. We can only accept about 20 students and often over 80 apply, so applicants should not expect to get in on your first try. To apply, stop by our table at the ExCo fair, meet the current semester’s teachers, and fill out a short application. No experience is necessary! We try to select people with a diverse range of musical backgrounds.

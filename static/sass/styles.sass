@@ -1,11 +1,15 @@
 @import bootstrap/variables
 @import compass/css3/border-radius
+@import compass/css3/text-shadow
 
 =dark
 	color: white
 
 body
 	min-height: 100%
+	font-weight: 200
+
+.dropdown-menu > li > a
 	font-weight: 200
 
 table
@@ -31,6 +35,9 @@ ul.unstyled
 iframe
 	max-width: 100%
 
+.margin-leader
+	margin-top: $line-height-computed
+
 .margin-trailer
 	margin-bottom: $line-height-computed
 
@@ -41,7 +48,9 @@ iframe
 	margin-bottom: 0
 
 .album-cover
-	max-width: 400px
+	margin: $line-height-computed auto
+	a > &
+		margin-bottom: 0
 
 .container
 	max-width: $screen-xs-max
@@ -58,6 +67,32 @@ iframe
 		background-color: rgba(black,.7)
 		+dark
 
+.card
+	padding-top: $line-height-computed / 2
+	padding-bottom: $line-height-computed / 2
+	margin-bottom: $line-height-computed * 1.5
+	margin-left: -.5*$line-height-computed
+	margin-right: -.5*$line-height-computed
+	+border-radius(3px)
+	.inverse &
+		+dark
+	img
+		margin: 0 auto
+	h4
+		margin-bottom: 4px
+	@media (max-width: $screen-xs-max)
+		h4
+			margin-top: 0
+	@media (min-width: $screen-sm-min)
+		text-align: center
+		&:hover
+			background-color: rgba(white,.5)
+			.inverse &
+				background-color: rgba(black,.3)
+@media (min-width: $screen-sm-min)
+	.card-wrapper
+		height: 300px
+
 .navbar
 	+border-radius(0)
 	margin-bottom: 0
@@ -66,6 +101,10 @@ h1
 	text-align: center
 	margin-bottom: 2*$line-height-computed
 	font-size: 4*$line-height-computed
+	+text-shadow(white 2px 1.5px 0)
+	.inverse &
+		+text-shadow(none)
+
 
 .table > tbody > tr:first-child > td
 	border-top: none
@@ -77,3 +116,8 @@ h1
 .typekit-badge
 	opacity: .3
 
+
+.table-hover > tbody > tr:hover
+	> th, > td
+		background-color: rgba(white,.5)
+	
