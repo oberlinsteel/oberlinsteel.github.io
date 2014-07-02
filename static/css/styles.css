@@ -16,17 +16,35 @@ b, strong {
 }
 
 #body {
-  padding-top: 50px;
-  padding-bottom: 100px;
-  background-color: #dddddd;
-  background-size: 100%;
+  padding-top: 15px;
+  padding-bottom: 22px;
+  background-color: #e94e4e;
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
+}
+@media (min-width: 768px) {
+  #body {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 767px) {
+  #body {
+    background: none !important;
+    background-color: #e94e4e !important;
+  }
 }
 
 footer {
-  margin: 60px 0;
   text-align: center;
   color: white;
+  margin: 22px 0;
+}
+@media (min-width: 768px) {
+  footer {
+    margin: 60px 0;
+  }
 }
 
 ul.unstyled {
@@ -59,6 +77,7 @@ iframe {
 }
 a > .album-cover {
   margin-bottom: 0;
+  position: relative;
 }
 
 .container {
@@ -81,8 +100,11 @@ a > .album-cover {
   margin-bottom: 0;
 }
 .inverse .box {
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
+  @media(min-width:$screen-sm-min) {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
 }
 
 .card {
@@ -98,7 +120,10 @@ a > .album-cover {
   border-radius: 3px;
 }
 .inverse .card {
-  color: white;
+  @media(min-width:$screen-sm-min) {
+    color: white;
+}
+
 }
 .card img {
   margin: 0 auto;
@@ -119,7 +144,10 @@ a > .album-cover {
     background-color: rgba(255, 255, 255, 0.5);
   }
   .inverse .card:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    @media(min-width:$screen-sm-min) {
+      background-color: rgba(0, 0, 0, 0.3);
+}
+
   }
 }
 
@@ -140,19 +168,33 @@ a > .album-cover {
 h1 {
   text-align: center;
   margin-bottom: 44px;
-  font-size: 88px;
-  text-shadow: white 2px 1.5px 0;
+  font-size: 44px;
+  color: white;
 }
-.inverse h1 {
-  text-shadow: #222222 3px 2px 0;
+@media (min-width: 768px) {
+  h1 {
+    color: #222222;
+    font-size: 88px;
+    text-shadow: white 2px 1.5px 0;
+  }
+}
+@media (min-width: 768px) {
+  .inverse h1 {
+    text-shadow: #222222 3px 2px 0;
+  }
 }
 
 .table > tbody > tr:first-child > td {
   border-top: none;
 }
 
-.inverse h1, .inverse .box {
-  color: white;
+.inverse {
+  @media(min-width:$screen-sm-min) {
+    h1, .box {
+      color: white;
+    }
+}
+
 }
 
 .typekit-badge {
