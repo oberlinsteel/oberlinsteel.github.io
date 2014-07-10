@@ -69,41 +69,31 @@ iframe
 	position: relative
 	background-color: white
 	&::after
-		content: "Listen on Bandcamp"
+		content: " "
 		position: absolute
 		margin: auto
 		top: 0
+		left: 5px
 		bottom: 0
-		left: 0
 		right: 0
+		height: 0
+		width: 0
+		border-top: 45px solid transparent
+		border-bottom: 45px solid transparent
+		border-left: 100px solid rgba($brand-primary,.7)
+	&:hover::after
+		content: "Listen on Bandcamp"
+		left: 0
 		height: 114px
 		width: 200px
 		text-align: center
 		font-weight: 400
 		font-size: 40px
-		opacity: 0
+		border: none
 	> .album-cover
 		margin-bottom: 0
-	&:hover
-		.album-cover, .flag
-			opacity: .5
-		&::after
-			opacity: 1
-
-		
-.flag
-	content: " "
-	position: absolute
-	margin: auto
-	top: 0
-	left: 5px
-	bottom: 0
-	right: 0
-	height: 0
-	width: 0
-	border-top: 45px solid transparent
-	border-bottom: 45px solid transparent
-	border-left: 100px solid rgba($brand-primary,.7)
+	&:hover > .album-cover
+		opacity: .5
 
 .container
 	max-width: $screen-xs-max

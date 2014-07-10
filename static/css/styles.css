@@ -81,31 +81,6 @@ iframe {
   background-color: white;
 }
 .bandcamp::after {
-  content: "Listen on Bandcamp";
-  position: absolute;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 114px;
-  width: 200px;
-  text-align: center;
-  font-weight: 400;
-  font-size: 40px;
-  opacity: 0;
-}
-.bandcamp > .album-cover {
-  margin-bottom: 0;
-}
-.bandcamp:hover .album-cover, .bandcamp:hover .flag {
-  opacity: 0.5;
-}
-.bandcamp:hover::after {
-  opacity: 1;
-}
-
-.flag {
   content: " ";
   position: absolute;
   margin: auto;
@@ -118,6 +93,22 @@ iframe {
   border-top: 45px solid transparent;
   border-bottom: 45px solid transparent;
   border-left: 100px solid rgba(232, 72, 72, 0.7);
+}
+.bandcamp:hover::after {
+  content: "Listen on Bandcamp";
+  left: 0;
+  height: 114px;
+  width: 200px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  border: none;
+}
+.bandcamp > .album-cover {
+  margin-bottom: 0;
+}
+.bandcamp:hover > .album-cover {
+  opacity: 0.5;
 }
 
 .container {
