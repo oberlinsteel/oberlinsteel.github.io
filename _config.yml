@@ -1,6 +1,6 @@
 name: Oberlin Steel
 markdown: redcarpet
 pygments: true
-permalink: /music/:title/
+permalink: /albums/:title/
 image_url: /static/images
 baseurl: /osteel
