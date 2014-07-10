@@ -5,13 +5,15 @@ title: Band
 heading: The Band
 ---
 <table class="table">
-	{% for member in site.data.band.members %}	
-		<tr>
-			<td>{{ member.name }}</td>
-			<td>{{ member.instrument }}</td>
-			<td>{{ member.hometown }}</td>
-		</tr>
-	{% endfor %}
+	<tbody>
+		{% for member in site.data.band.members %}	
+			<tr>
+				<td>{{ member.name }}</td>
+				<td>{{ member.instrument }}</td>
+				<td>{{ member.hometown }}</td>
+			</tr>
+		{% endfor %}
+	</tbody>
 </table>
 
 ###Officers

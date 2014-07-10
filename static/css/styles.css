@@ -225,10 +225,10 @@ h1 {
   border-top: none;
 }
 
-.typekit-badge {
-  opacity: 0.3;
+.table-hover > tbody > tr:hover > td {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-.table-hover > tbody > tr:hover > th, .table-hover > tbody > tr:hover > td {
-  background-color: rgba(255, 255, 255, 0.5);
+.typekit-badge {
+  opacity: 0.3;
 }
