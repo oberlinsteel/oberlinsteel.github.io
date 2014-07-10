@@ -98,13 +98,6 @@ iframe {
 .bandcamp > .album-cover {
   margin-bottom: 0;
 }
-.bandcamp:hover, .bandcamp:hover *, .bandcamp:hover::after {
-  -webkit-transition: opacity 0.15s;
-  -webkit-transition-delay: 0.1s;
-  -moz-transition: opacity 0.15s 0.1s;
-  -o-transition: opacity 0.15s 0.1s;
-  transition: opacity 0.15s 0.1s;
-}
 .bandcamp:hover .album-cover, .bandcamp:hover .flag {
   opacity: 0.5;
 }
