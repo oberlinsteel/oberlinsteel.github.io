@@ -75,9 +75,45 @@ iframe {
 .album-cover {
   margin: 22px auto;
 }
-a > .album-cover {
-  margin-bottom: 0;
+
+.bandcamp {
   position: relative;
+}
+.bandcamp > .album-cover {
+  margin-bottom: 0;
+}
+.bandcamp:hover {
+  opacity: 0.9;
+}
+.bandcamp:hover::after {
+  content: "Listen on Bandcamp";
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.flag {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 0;
+  width: 0;
+}
+.flag::after {
+  top: -45px;
+  left: -45px;
+  height: 0;
+  width: 0;
+  content: " ";
+  position: absolute;
+  border-top: 45px solid transparent;
+  border-bottom: 45px solid transparent;
+  border-left: 100px solid rgba(232, 72, 72, 0.7);
 }
 
 .container {

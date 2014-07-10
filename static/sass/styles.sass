@@ -3,6 +3,8 @@
 @import compass/css3/text-shadow
 @import compass/css3/box-sizing
 
+$red: #e94e4e
+
 =dark
 	color: white
 
@@ -22,7 +24,7 @@ b, strong
 #body
 	padding-top: 15px
 	padding-bottom: $line-height-computed
-	background-color: #e94e4e
+	background-color: $red
 	background-size: cover
 	background-position: center
 	background-attachment: fixed
@@ -61,9 +63,40 @@ iframe
 
 .album-cover
 	margin: $line-height-computed auto
-	a > &
+
+.bandcamp
+	position: relative
+	> .album-cover
 		margin-bottom: 0
-		position: relative
+	&:hover
+		opacity: .9
+		&::after
+			content: "Listen on Bandcamp"
+			position: absolute
+			top: 30%
+			left: 0
+			right: 0
+			text-align: center
+			font-weight: 400
+			font-size: 40px
+		
+.flag
+	content: " "
+	position: absolute
+	top: 50%
+	left: 50%
+	height: 0
+	width: 0
+	&::after
+		top: -45px
+		left: -45px
+		height: 0
+		width: 0
+		content: " "
+		position: absolute
+		border-top: 45px solid transparent
+		border-bottom: 45px solid transparent
+		border-left: 100px solid rgba($brand-primary,.7)
 
 .container
 	max-width: $screen-xs-max
