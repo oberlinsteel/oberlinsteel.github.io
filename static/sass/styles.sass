@@ -2,6 +2,7 @@
 @import compass/css3/border-radius
 @import compass/css3/text-shadow
 @import compass/css3/box-sizing
+@import compass/css3/transition
 
 $red: #e94e4e
 
@@ -66,37 +67,45 @@ iframe
 
 .bandcamp
 	position: relative
+	background-color: white
+	&::after
+		content: "Listen on Bandcamp"
+		position: absolute
+		margin: auto
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0
+		height: 114px
+		width: 200px
+		text-align: center
+		font-weight: 400
+		font-size: 40px
+		opacity: 0
 	> .album-cover
 		margin-bottom: 0
 	&:hover
-		opacity: .9
+		&, *, &::after
+			+transition(opacity .15s .1s)
+		.album-cover, .flag
+			opacity: .5
 		&::after
-			content: "Listen on Bandcamp"
-			position: absolute
-			top: 30%
-			left: 0
-			right: 0
-			text-align: center
-			font-weight: 400
-			font-size: 40px
+			opacity: 1
+
 		
 .flag
 	content: " "
 	position: absolute
-	top: 50%
-	left: 50%
+	margin: auto
+	top: 0
+	left: 5px
+	bottom: 0
+	right: 0
 	height: 0
 	width: 0
-	&::after
-		top: -45px
-		left: -45px
-		height: 0
-		width: 0
-		content: " "
-		position: absolute
-		border-top: 45px solid transparent
-		border-bottom: 45px solid transparent
-		border-left: 100px solid rgba($brand-primary,.7)
+	border-top: 45px solid transparent
+	border-bottom: 45px solid transparent
+	border-left: 100px solid rgba($brand-primary,.7)
 
 .container
 	max-width: $screen-xs-max
@@ -145,6 +154,10 @@ iframe
 .navbar
 	+border-radius(0)
 	margin-bottom: 0
+
+.nav-albums
+	margin: 0 -15px
+	margin-bottom: -10px
 
 h1
 	text-align: center

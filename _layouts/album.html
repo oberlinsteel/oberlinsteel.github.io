@@ -4,6 +4,7 @@ bg: music.jpg
 ---
 
 <h2>Tracks</h2>
+
 <ol>
 {% for track in page.tracks %}
 	<li><strong>{{ track.title }}</strong> {{ track.info }}</li>
@@ -17,7 +18,7 @@ bg: music.jpg
 			{% if page.bandcamp %}
 			<div class="flag"></div>
 		</div></a>
-		<p><a href="http://oberlinsteel.bandcamp.com/album/{{ page.bandcamp }}">Listen on Bandcamp</a></p>
+		<p class="text-right"><a href="http://oberlinsteel.bandcamp.com/album/{{ page.bandcamp }}">Listen on Bandcamp</a></p>
 		{% endif %}
 	</div>
 	<div class="col-sm-6 col-sm-pull-6">
@@ -36,5 +37,11 @@ bg: music.jpg
 	</div>
 </div>
 
+<h3 class="margin-leader">Other Albums</h3>
+<ul class="nav nav-pills nav-albums">
+{% for post in site.categories.albums %}
+	<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
 
 

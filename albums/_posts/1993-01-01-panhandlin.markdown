@@ -1,7 +1,7 @@
 ---
 layout: album
 title:  Panhandlin'
-image: panhandlin.gif
+image: panhandlin.jpg
 year: 1993
 medium: CD
 availability: $5
