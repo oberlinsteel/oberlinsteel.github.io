@@ -50,7 +50,9 @@
 				<div class="row-fluid">
 					<div class="col-sm-4">
 						<ul class="nav">
-							<li><a href="{{ site.baseurl }}/">Home</a></li>
+							{% if page.title %}
+								<li><a href="{{ site.baseurl }}/">Home</a></li>
+							{% endif %}
 							{% include nav.html %}
 							<li><a href="http://www.oberlin.edu/stuorg/osteel/">Old Site</a></li>
 						</ul>
@@ -75,11 +77,5 @@
 		<script type="text/javascript" src="{{ site.baseurl }}/static/javascripts/bootstrap/transition.js"></script>
 		<script type="text/javascript" src="{{ site.baseurl }}/static/javascripts/bootstrap/collapse.js"></script>
 		<script type="text/javascript" src="{{ site.baseurl }}/static/javascripts/bootstrap/dropdown.js"></script>
-		<!-- {% if page.bg %}
-			<script type="text/javascript" src="{{ site.baseurl }}/static/javascripts/jquery.backstretch.min.js"></script>
-			<script type="text/javascript">
-				$("#body").backstretch("{{ site.baseurl }}/static/images/backgrounds/{{ page.bg }}");
-			</script>
-		{% endif %} -->
 	</body>
 </html>

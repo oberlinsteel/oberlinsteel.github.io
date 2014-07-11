@@ -2,7 +2,6 @@
 layout: default
 bg: alumni.jpg
 title: Alumni
-heading: Alumni
 ---
 <table class="table table-condensed table-hover">
 	<thead>
