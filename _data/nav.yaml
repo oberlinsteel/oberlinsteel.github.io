@@ -1,0 +1,15 @@
+links:
+- name: About the Band
+  sublinks:
+  - name: About
+    url: about
+  - name: The Band
+    url: band
+  - name: Alumni
+    url: alumni
+- name: Albums
+  url: albums
+- name: Shows
+  url: shows
+- name: ExCo
+  url: exco

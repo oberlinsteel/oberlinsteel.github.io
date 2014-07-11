@@ -1,12 +1,14 @@
-<li class="dropdown">
-	<a href="#" class="dropdown-toggle" data-toggle="dropdown">About the Band <span class="caret"></span></a>
-	<ul class="dropdown-menu" role="menu">
-		<li><a href="{{ site.baseurl }}/about">About</a></li>
-		<li><a href="{{ site.baseurl }}/band">The Band</a></li>
-		<li><a href="{{ site.baseurl }}/alumni">Alumni</a></li>
-	</ul>
-</li>
-<li><a href="{{ site.baseurl }}/albums">Albums</a></li>
-<li><a href="{{ site.baseurl }}/shows">Shows</a></li>
-<li><a href="{{ site.baseurl }}/exco">ExCo</a></li>
-<!--li><a href="{{ site.baseurl }}/trip">Upcoming Trip!</a></li-->
+{% for link in site.data.nav.links %}
+	{% if link.sublinks %}
+		<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ link.name }} <span class="caret"></span></a>
+			<ul class="dropdown-menu" role="menu">
+				{% for sublink in link.sublinks %}
+					<li><a href="{{ site.baseurl }}/{{ sublink.url }}">{{ sublink.name }}</a></li>
+				{% endfor %}
+			</ul>
+		</li>
+	{% else %}
+		<li><a href="{{ site.baseurl }}/{{ link.url }}">{{ link.name }}</a></li>
+	{% endif %}
+{% endfor %}		
