@@ -3,7 +3,7 @@ layout: default
 title: Albums
 bg: music.jpg
 ---
-Oberlin Steel has recorded eight albums, five under its former name, The Can Consortium, and four under its current; the band’s newest album, Welcome to the Swanktuary, was released in May 2012.
+Oberlin Steel has recorded eight albums, five under its former name, The Can Consortium, and four under its current; the band’s newest album, Welcome to the Swanktuary, was released in May 2013.
 
 Each album the band has produced has a unique style all its own. As veteran members graduate and new members bring their own influences and musicality to the band, Oberlin Steel redefines itself each year with a new sound. The band’s current repertoire focuses mostly on traditional steelband music—calypso and soca tunes from the past and present, with some pop, jazz, and bossa mixed in.
 
