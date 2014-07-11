@@ -99,7 +99,7 @@ iframe
 	max-width: $screen-xs-max
 
 .box
-	background-color: rgba(white,.8)
+	background-color: rgba(white,.85)
 	padding: $line-height-computed
 	+border-radius(3px)
 	h2:first-child
@@ -144,8 +144,17 @@ iframe
 	margin-bottom: 0
 
 .nav-albums
-	margin: 0 -15px
-	margin-bottom: -10px
+	@media (min-width: $screen-sm-min)
+		margin: 0 -15px
+		margin-bottom: -10px
+	@media (max-width: $screen-xs-max)
+		li
+			width: 100%
+			> a
+				padding: 0
+			> a:hover
+				background: none
+				text-decoration: underline
 
 h1
 	text-align: center
@@ -192,3 +201,4 @@ h1
 
 .typekit-badge
 	opacity: .3
+	

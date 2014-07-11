@@ -116,7 +116,7 @@ iframe {
 }
 
 .box {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.85);
   padding: 22px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -195,9 +195,23 @@ iframe {
   margin-bottom: 0;
 }
 
-.nav-albums {
-  margin: 0 -15px;
-  margin-bottom: -10px;
+@media (min-width: 768px) {
+  .nav-albums {
+    margin: 0 -15px;
+    margin-bottom: -10px;
+  }
+}
+@media (max-width: 767px) {
+  .nav-albums li {
+    width: 100%;
+  }
+  .nav-albums li > a {
+    padding: 0;
+  }
+  .nav-albums li > a:hover {
+    background: none;
+    text-decoration: underline;
+  }
 }
 
 h1 {
