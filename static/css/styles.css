@@ -130,12 +130,11 @@ iframe {
 .box p:last-child {
   margin-bottom: 0;
 }
-.inverse .box {
-  @media(min-width:$screen-sm-min) {
+@media (min-width: 768px) {
+  .inverse .box {
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
-}
-
+  }
 }
 
 .card {
