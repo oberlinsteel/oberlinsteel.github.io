@@ -8,7 +8,7 @@ heading: The Band
 	<tbody>
 		{% for member in site.data.band.members %}	
 			<tr>
-				<td>{{ member.name }}</td>
+				<td class="xs-strong">{{ member.name }}</td>
 				<td>{{ member.instrument }}</td>
 				<td>{{ member.hometown }}</td>
 			</tr>
@@ -17,7 +17,7 @@ heading: The Band
 </table>
 
 ###Officers
-<ul class="unstyled">
+<ul class="unstyled ul-xs-table">
 	{% for position in site.data.band.officers %}
 		<li><strong class="inline-h">{{ position.title }}</strong> {{ position.name }}</li>	
 	{% endfor %}

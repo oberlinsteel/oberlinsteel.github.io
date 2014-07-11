@@ -165,9 +165,30 @@ h1
 .table > tbody > tr:first-child > td
 	border-top: none
 
-.table-hover > tbody > tr:hover
-	> td
-		background-color: rgba(white,.5)	
+.table-hover > tbody > tr:hover > td
+	background-color: rgba(white,.5)	
+
+@media (max-width: $screen-xs-max)
+	.table > thead
+		display: none
+	.table > tbody > tr 
+		margin-bottom: .5 * $line-height-computed
+		display: block
+		> td
+			border: none
+			display: block
+			padding: 0
+	.table-hover > tbody > tr:hover > td
+		background: none
+
+	.ul-xs-table > li
+		margin-bottom: .5 * $line-height-computed
+		> .inline-h
+			display: block
+	.xs-strong
+		font-weight: 400
+	.xs-em
+		font-style: italic
 
 .typekit-badge
 	opacity: .3

@@ -229,6 +229,40 @@ h1 {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+@media (max-width: 767px) {
+  .table > thead {
+    display: none;
+  }
+
+  .table > tbody > tr {
+    margin-bottom: 11px;
+    display: block;
+  }
+  .table > tbody > tr > td {
+    border: none;
+    display: block;
+    padding: 0;
+  }
+
+  .table-hover > tbody > tr:hover > td {
+    background: none;
+  }
+
+  .ul-xs-table > li {
+    margin-bottom: 11px;
+  }
+  .ul-xs-table > li > .inline-h {
+    display: block;
+  }
+
+  .xs-strong {
+    font-weight: 400;
+  }
+
+  .xs-em {
+    font-style: italic;
+  }
+}
 .typekit-badge {
   opacity: 0.3;
 }
