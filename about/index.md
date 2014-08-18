@@ -2,11 +2,8 @@
 layout: default
 title: About
 bg: about.jpg
+published: true
 ---
-## A More Detailed Description of Oberlin Steel
-
-Formed around 1980 and known as the “Oberlin Can Consortium” until 2001, the group plays soca music in the tradition of the great steelbands of trinidad, but also performs arrangements of salsa, calypso, and jazz tunes and original compositions and arrangements by band members. A dance band in the truest sense, Oberlin Steel performs at campus events and in the Oberlin area. After months of rehearsing and performing, the band tours for the week of spring break in late March. Past destinations include Chicago, Boston, New York, Atlanta, New Orleans, Baton Rouge, Miami, Montreal, Ithaca, Nashville, Austin, and Washington, D.C., among others. OSteel performs for college and university audiences, nightclubs, restaurants, theaters, train stations, hotels, high schools, elementary schools, airplanes, weddings, stadiums, outdoor festivals and public spaces like Central Park in NYC and the Lincoln Memorial in D.C. The band usually has twelve to twenty members, including tenor, double tenor, seconds, cello, quads, and bass pan players, plus auxiliary percussionists and a set drummer. The group is large, but can usually fit into even small venues. OSteel has recorded eight albums, four under its current name. Its latest album, Welcome to the Swanktuary,” was released in the spring of 2014. If you are interested in ordering CDs, or if you are an alumni of the band, please contact us; we would appreciate any historical tidbits or current address/email information.
-
 
 ## Mission Statement
 
