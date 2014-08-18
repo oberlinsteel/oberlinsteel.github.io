@@ -3,6 +3,9 @@ layout: default
 bg: alumni.jpg
 title: Alumni
 ---
+
+This crazy band of ours has a long and very twisted history starting in 1980! Following is a list of the two decades of Obies who have passed through the panyard. The list is nowhere near complete, so if you have any further information, please, please, please send it to the band. Down at the bottom you'll find our founding members, who started something kinda neat, and we all thank you!
+
 <table class="table table-condensed table-hover">
 	<thead>
 		<tr>
