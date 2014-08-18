@@ -13,17 +13,13 @@ body
 	min-height: 100%
 	font-weight: 200
 
-.dropdown-menu > li > a
+.dropdown-menu > li > a, .btn
 	font-weight: 200
 
-table
-	font-weight: 300
-
-b, strong
+b, strong, th
 	font-weight: 400
 
 #body
-	padding-top: 15px
 	padding-bottom: $line-height-computed
 	background-color: $red
 	background-size: cover
@@ -42,6 +38,9 @@ footer
 	margin: $line-height-computed 0
 	@media (min-width:$screen-sm-min)
 		margin: 60px 0
+
+ol
+	padding-left: 1.5*$line-height-computed
 
 ul
 	padding-left: $line-height-computed
@@ -64,39 +63,6 @@ iframe
 
 .info > p
 	margin-bottom: 0
-
-.album-cover
-	margin: $line-height-computed auto
-
-.bandcamp
-	position: relative
-	background-color: white
-	&::after
-		content: " "
-		position: absolute
-		margin: auto
-		top: 0
-		left: 5px
-		bottom: 0
-		right: 0
-		height: 0
-		width: 0
-		border-top: 45px solid transparent
-		border-bottom: 45px solid transparent
-		border-left: 100px solid rgba($brand-primary,.7)
-	&:hover::after
-		content: "Listen on Bandcamp"
-		left: 0
-		height: 114px
-		width: 200px
-		text-align: center
-		font-weight: 400
-		font-size: 40px
-		border: none
-	> .album-cover
-		margin-bottom: 0
-	&:hover > .album-cover
-		opacity: .5
 
 .container
 	max-width: 750px
@@ -133,31 +99,32 @@ iframe
 			margin-top: 0
 	@media (min-width: $screen-sm-min)
 		text-align: center
+		p
+			margin-bottom: 0
 		&:hover
-			background-color: rgba(white,.5)
+			background-color: rgba(white,.6)
 			.inverse &
 				@media(min-width:$screen-sm-min)
 					background-color: rgba(black,.3)
 @media (min-width: $screen-sm-min)
 	.card-wrapper
-		height: 300px
+		height: 16*$line-height-computed
 
 .navbar
 	+border-radius(0)
 	margin-bottom: 0
 
 .nav-albums
-	@media (min-width: $screen-sm-min)
-		margin: 0 -15px
-		margin-bottom: -10px
-	@media (max-width: $screen-xs-max)
-		li
-			width: 100%
-			> a
-				padding: 0
-			> a:hover
-				background: none
-				text-decoration: underline
+	@extend ul.unstyled
+	text-align: center
+	li
+		display: inline-block
+	.active
+		@extend strong
+	li::before
+		content: " ∙ "
+	li:first-child::before
+		content: ""
 
 h1
 	text-align: center
@@ -166,7 +133,8 @@ h1
 	+dark
 	@media (min-width: $screen-sm-min)
 		color: $gray-darker
-		font-size: 4*$line-height-computed
+		font-size: 3.5*$line-height-computed
+		margin-top: 0
 		+text-shadow(white 2px 1.5px 0)
 	.inverse &
 		@media (min-width: $screen-sm-min)
@@ -205,3 +173,15 @@ h1
 .typekit-badge
 	opacity: .3
 
+.inline
+	display: inline
+
+.a
+	background: none
+	border: none
+	display: inline
+	padding: 0
+	color: $link-color
+	&:hover
+		color: $link-hover-color
+		text-decoration: underline

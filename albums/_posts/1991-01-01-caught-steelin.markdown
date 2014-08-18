@@ -4,7 +4,6 @@ title:  Caught Steelin'
 image: caughtsteelin.gif
 year: 1991
 medium: CD
-availability: out of print
 tracks:
 - title: Pan Jam
   info: arr. Can Consortium

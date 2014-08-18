@@ -1,23 +1,19 @@
+@charset "UTF-8";
 body {
   min-height: 100%;
   font-weight: 200;
 }
 
-.dropdown-menu > li > a {
+.dropdown-menu > li > a, .btn {
   font-weight: 200;
 }
 
-table {
-  font-weight: 300;
-}
-
-b, strong {
+b, strong, .nav-albums .active, th {
   font-weight: 400;
 }
 
 #body {
-  padding-top: 15px;
-  padding-bottom: 22px;
+  padding-bottom: 25px;
   background-color: #e94e4e;
   background-size: cover;
   background-position: center;
@@ -39,7 +35,7 @@ b, strong {
 footer {
   text-align: center;
   color: white;
-  margin: 22px 0;
+  margin: 25px 0;
 }
 @media (min-width: 768px) {
   footer {
@@ -47,11 +43,15 @@ footer {
   }
 }
 
-ul {
-  padding-left: 22px;
+ol {
+  padding-left: 37.5px;
 }
 
-ul.unstyled {
+ul {
+  padding-left: 25px;
+}
+
+ul.unstyled, .nav-albums {
   list-style: none;
   padding-left: 0;
 }
@@ -61,11 +61,11 @@ iframe {
 }
 
 .margin-leader {
-  margin-top: 22px;
+  margin-top: 25px;
 }
 
 .margin-trailer {
-  margin-bottom: 22px;
+  margin-bottom: 25px;
 }
 
 .inline-h {
@@ -76,52 +76,13 @@ iframe {
   margin-bottom: 0;
 }
 
-.album-cover {
-  margin: 22px auto;
-}
-
-.bandcamp {
-  position: relative;
-  background-color: white;
-}
-.bandcamp::after {
-  content: " ";
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left: 5px;
-  bottom: 0;
-  right: 0;
-  height: 0;
-  width: 0;
-  border-top: 45px solid transparent;
-  border-bottom: 45px solid transparent;
-  border-left: 100px solid rgba(232, 72, 72, 0.7);
-}
-.bandcamp:hover::after {
-  content: "Listen on Bandcamp";
-  left: 0;
-  height: 114px;
-  width: 200px;
-  text-align: center;
-  font-weight: 400;
-  font-size: 40px;
-  border: none;
-}
-.bandcamp > .album-cover {
-  margin-bottom: 0;
-}
-.bandcamp:hover > .album-cover {
-  opacity: 0.5;
-}
-
 .container {
   max-width: 750px;
 }
 
 .box {
   background-color: rgba(255, 255, 255, 0.85);
-  padding: 22px;
+  padding: 25px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -142,11 +103,11 @@ iframe {
 }
 
 .card {
-  padding-top: 11px;
-  padding-bottom: 11px;
-  margin-bottom: 33px;
-  margin-left: -11px;
-  margin-right: -11px;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+  margin-bottom: 37.5px;
+  margin-left: -12.5px;
+  margin-right: -12.5px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -174,8 +135,11 @@ iframe {
   .card {
     text-align: center;
   }
+  .card p {
+    margin-bottom: 0;
+  }
   .card:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
   }
   .inverse .card:hover {
     @media(min-width:$screen-sm-min) {
@@ -187,7 +151,7 @@ iframe {
 
 @media (min-width: 768px) {
   .card-wrapper {
-    height: 300px;
+    height: 400px;
   }
 }
 .navbar {
@@ -199,35 +163,30 @@ iframe {
   margin-bottom: 0;
 }
 
-@media (min-width: 768px) {
-  .nav-albums {
-    margin: 0 -15px;
-    margin-bottom: -10px;
-  }
+.nav-albums {
+  text-align: center;
 }
-@media (max-width: 767px) {
-  .nav-albums li {
-    width: 100%;
-  }
-  .nav-albums li > a {
-    padding: 0;
-  }
-  .nav-albums li > a:hover {
-    background: none;
-    text-decoration: underline;
-  }
+.nav-albums li {
+  display: inline-block;
+}
+.nav-albums li::before {
+  content: " ∙ ";
+}
+.nav-albums li:first-child::before {
+  content: "";
 }
 
 h1 {
   text-align: center;
-  margin-bottom: 44px;
-  font-size: 44px;
+  margin-bottom: 50px;
+  font-size: 50px;
   color: white;
 }
 @media (min-width: 768px) {
   h1 {
     color: #222222;
-    font-size: 88px;
+    font-size: 87.5px;
+    margin-top: 0;
     text-shadow: white 2px 1.5px 0;
   }
 }
@@ -252,7 +211,7 @@ h1 {
   }
 
   .table > tbody > tr {
-    margin-bottom: 11px;
+    margin-bottom: 12.5px;
     display: block;
   }
   .table > tbody > tr > td {
@@ -266,7 +225,7 @@ h1 {
   }
 
   .ul-xs-table > li {
-    margin-bottom: 11px;
+    margin-bottom: 12.5px;
   }
   .ul-xs-table > li > .inline-h {
     display: block;
@@ -282,4 +241,20 @@ h1 {
 }
 .typekit-badge {
   opacity: 0.3;
+}
+
+.inline {
+  display: inline;
+}
+
+.a {
+  background: none;
+  border: none;
+  display: inline;
+  padding: 0;
+  color: #e84848;
+}
+.a:hover {
+  color: #ca1919;
+  text-decoration: underline;
 }

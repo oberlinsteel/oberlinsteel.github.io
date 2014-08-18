@@ -3,42 +3,40 @@ layout: default
 bg: music.jpg
 ---
 
-<h2>Tracks</h2>
+<img class="img-responsive" src="{{ site.baseurl }}{{ site.image_url }}/albums/{{ page.image }}">
 
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="{{ page.paypal }}">
+	{% if page.bandcamp %}
+		<a class="btn btn-primary margin-leader" href="http://oberlinsteel.bandcamp.com/album/{{ page.bandcamp }}">Listen on Bandcamp</a>
+	{% endif %}
+	{% if page.paypal %}
+		<input type="submit" class="btn btn-primary margin-leader" name="submit" value="Buy on PayPal for {{ page.cost }}">
+	{% endif %}
+</form>
+
+<h2>Tracks</h2>
 <ol>
-{% for track in page.tracks %}
-	<li><strong>{{ track.title }}</strong> {{ track.info }}</li>
-{% endfor %}
+	{% for track in page.tracks %}
+		<li><strong>{{ track.title }}</strong> {{ track.info }}</li>
+	{% endfor %}
 </ol>
 
-<div class="row">
-	<div class="col-sm-6 col-sm-push-6">
-		{% if page.bandcamp %}<a href="http://oberlinsteel.bandcamp.com/album/{{ page.bandcamp }}"><div class="bandcamp">{% endif %}
-			<img class="img-responsive album-cover" src="{{ site.baseurl }}{{ site.image_url }}/albums/{{ page.image }}">
-			{% if page.bandcamp %}
-			<div class="flag"></div>
-		</div></a>
-		<p class="text-right"><a href="http://oberlinsteel.bandcamp.com/album/{{ page.bandcamp }}">Listen on Bandcamp</a></p>
-		{% endif %}
-	</div>
-	<div class="col-sm-6 col-sm-pull-6">
-		{% if page.personnel %}
-			<h2>Personnel</h2>
-			<ul class="unstyled">
-			{% for person in page.personnel %}
-				<li><strong class="inline-h">{{ person.name }}</strong> {{ person.instrument }}</li>
-			{% endfor %}
-			</ul>
-		{% endif %}
+{% if page.personnel %}
+	<h2>Personnel</h2>
+	<ul class="unstyled">
+	{% for person in page.personnel %}
+		<li><strong class="inline-h">{{ person.name }}</strong> {{ person.instrument }}</li>
+	{% endfor %}
+	</ul>
+{% endif %}
 
-		<div class="info">
-			{{ content }}
-		</div>
-	</div>
+<div class="info margin-leader">
+	{{ content }}
 </div>
 
-<h3 class="margin-leader">All Albums</h3>
-<ul class="nav nav-pills nav-albums">
+<ul class="nav-albums margin-leader">
 {% for post in site.categories.albums %}
 	<li{% if page.title == post.title %} class="active"{% endif %}><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}

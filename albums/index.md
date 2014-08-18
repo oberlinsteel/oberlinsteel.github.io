@@ -20,7 +20,17 @@ For track listings and more information, click on the album titles below. Many o
 					<a href="{{ site.baseurl }}{{ post.url }}">
 						<h4>{{ post.title }}</h4>
 					</a>
-					<p>{{ post.year }}, {{ post.medium }}{% if post.bandcamp %} <a href="http://oberlinsteel.bandcamp.com/album/{{ post.bandcamp }}">on bandcamp</a>{% endif %}</p>
+					<p>{{ post.year }}, {% if post.cost %}{{ post.cost }} {% endif %}{{ post.medium }}</p>
+					{% if post.paypal %}
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="{{ page.paypal }}">
+								<input type="submit" class="a" name="submit" value="Buy with PayPal">
+						</form>
+					{% endif %}
+					{% if post.bandcamp %}
+						<a href="http://oberlinsteel.bandcamp.com/album/{{ post.bandcamp }}">Listen on Bandcamp</a>
+					{% endif %}
 				</div>
 			</div>
 		</div>

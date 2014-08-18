@@ -4,7 +4,8 @@ title:  Jus' Yenjai
 image: jusyenjai.gif
 year: 1995
 medium: cassette
-availability: out of print
+cost: $5
+paypal: CUVSYMZ56RSWW
 tracks:
 - title: Lara's Theme
   info: trad., arr. Can Consortium
@@ -54,7 +55,9 @@ personnel:
 - name: Eben English
   instrument: percussion
 ---
-Recorded at First Church, Oberlin, OH, on May 24, 1995. "Late in the Evening" recorded live at the Cat in the Cream, Oberlin, OH, on May 13, 1995.
+Recorded at First Church, Oberlin, OH, on May 24, 1995.
+
+_Late in the Evening_ recorded live at the Cat in the Cream, Oberlin, OH, on May 13, 1995.
 
 Engineering by Andy Russ
 

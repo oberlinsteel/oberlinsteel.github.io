@@ -4,7 +4,8 @@ title:  Pan on the Moon
 image: panonthemoon.jpg
 year: 2009
 medium: CD
-availability: $10
+cost: $5
+paypal: 8NYSHPVVYL84Y
 bandcamp: pan-on-the-moon
 tracks:
 - title: Dead or Alive

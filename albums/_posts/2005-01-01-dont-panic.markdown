@@ -4,7 +4,8 @@ title:  Don't Panic!
 image: dontpanic.jpg
 year: 2005
 medium: CD
-availability: $5
+cost: $5
+paypal: CGMM9X3CXQ7SU
 bandcamp: dont-panic-2
 tracks:
 - title: Guitar Pan

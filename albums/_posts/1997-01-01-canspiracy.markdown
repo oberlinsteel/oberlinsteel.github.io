@@ -4,7 +4,8 @@ title:  Canspiracy
 image: canspiracy.jpg
 year: 1997
 medium: CD
-availability: $5
+cost: $5
+paypal: 9KLASGSL8FY3U
 bandcamp: canspiracy
 tracks:
 - title: The Bee's Melody

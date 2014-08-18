@@ -4,6 +4,8 @@ title:  Welcome to the Swanktuary
 image: swanktuary.jpg
 year: 2013
 medium: CD
+cost: $10
+paypal: 37V6YCL34FQGA
 bandcamp: welcome-to-the-swanktuary
 tracks:
 - title: Colours Again

@@ -4,7 +4,8 @@ title:  Panhandlin'
 image: panhandlin.jpg
 year: 1993
 medium: CD
-availability: $5
+cost: $5
+paypal: LXPKCP3KWYZXA
 bandcamp: panhandlin
 tracks:
 - title: Tourist Leggo

@@ -4,7 +4,6 @@ title:  Steel This Band
 image: steelthisband.jpg
 year: 2001
 medium: CD
-availability: out of print
 bandcamp: steelthisband
 tracks:
 - title: Carnival Day, Festival Day
