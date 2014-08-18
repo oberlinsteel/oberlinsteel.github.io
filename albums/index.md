@@ -9,7 +9,7 @@ Oberlin Steel has recorded nine albums, five under its former name, The Can Cons
 
 Each album the band has produced has a unique style all its own. As veteran members graduate and new members bring their own influences and musicality to the band, Oberlin Steel redefines itself each year with a new sound. The band’s current repertoire focuses mostly on traditional steelband music—calypso and soca tunes from the past and present, with some pop, jazz, and bossa mixed in.
 
-For track listings and more information, click on the album titles below. Many of our albums (as noted below) can also be found [on bandcamp](http://oberlinsteel.bandcamp.com). If you'd like to order multiple albums at once, it's more efficient to e-mail your order to the band at osteel@oberlin.edu.
+For track listings and more information, click on the album titles below. Many of our albums (as noted below) can also be found [on bandcamp](http://oberlinsteel.bandcamp.com). If you'd like to order multiple albums at once, it's more efficient to e-mail your order to the band at [osteel@oberlin.edu](osteel@oberlin.edu).
 
 <div class="row clearfix margin-leader">
 	{% for post in site.categories.albums %}
