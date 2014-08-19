@@ -16,21 +16,23 @@ bg: music.jpg
 	{% endif %}
 </form>
 
-<h2>Tracks</h2>
-<ol>
-	{% for track in page.tracks %}
-		<li><strong>{{ track.title }}</strong> {{ track.info }}</li>
-	{% endfor %}
-</ol>
+{% unless page.merch %}
+	<h2>Tracks</h2>
+	<ol>
+		{% for track in page.tracks %}
+			<li><strong>{{ track.title }}</strong> {{ track.info }}</li>
+		{% endfor %}
+	</ol>
 
-{% if page.personnel %}
-	<h2>Personnel</h2>
-	<ul class="unstyled">
-	{% for person in page.personnel %}
-		<li><strong class="inline-h">{{ person.name }}</strong> {{ person.instrument }}</li>
-	{% endfor %}
-	</ul>
-{% endif %}
+	{% if page.personnel %}
+		<h2>Personnel</h2>
+		<ul class="unstyled">
+		{% for person in page.personnel %}
+			<li><strong class="inline-h">{{ person.name }}</strong> {{ person.instrument }}</li>
+		{% endfor %}
+		</ul>
+	{% endif %}
+{% endunless %}
 
 <div class="info margin-leader">
 	{{ content }}

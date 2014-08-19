@@ -1,0 +1,9 @@
+---
+layout: album
+merch: true
+title:  Sticker
+image: sticker.gif
+cost: $5
+paypal: 37V6YCL34FQGA
+---
+Oberlin Steel stickers!

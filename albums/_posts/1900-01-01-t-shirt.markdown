@@ -1,0 +1,9 @@
+---
+layout: album
+merch: true
+title:  T-shirt
+image: filler.gif
+cost: $15
+paypal: STJB9K2H73V8U
+---
+T-shirts, coming soon!

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Albums
+title: Albums & Merchandise
 bg: music.jpg
 published: true
 ---
@@ -22,7 +22,14 @@ For track listings and more information, click on the album titles below. Many o
 					<a href="{{ site.baseurl }}{{ post.url }}">
 						<h4>{{ post.title }}</h4>
 					</a>
-					<p>{{ post.year }}, {% if post.cost %}{{ post.cost }} {% endif %}{{ post.medium }}</p>
+					<p>
+						{% if post.year %}
+							{{ post.year }}{% endif %}{% if post.year && post.cost %},
+						{% endif %}
+						{% if post.cost %}
+							{{ post.cost }}
+						{% endif %} {{ post.medium }}
+					</p>
 					{% if post.paypal %}
 						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 							<input type="hidden" name="cmd" value="_s-xclick">

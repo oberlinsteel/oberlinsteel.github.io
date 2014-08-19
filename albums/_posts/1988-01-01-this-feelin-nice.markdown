@@ -4,7 +4,6 @@ title:  This Feelin' Nice
 image: thisfeelinnice.gif
 year: 1988
 medium: cassette
-availability: out of print
 tracks:
 - name: This Feelin' Nice
   info: trad., arr. Can Consortium
