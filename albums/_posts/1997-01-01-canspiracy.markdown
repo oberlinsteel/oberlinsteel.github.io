@@ -2,6 +2,7 @@
 layout: album
 title:  Canspiracy
 image: canspiracy.jpg
+thumb: true
 year: 1997
 medium: CD
 cost: $5

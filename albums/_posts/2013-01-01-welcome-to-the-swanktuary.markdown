@@ -2,6 +2,7 @@
 layout: album
 title:  Welcome to the Swanktuary
 image: swanktuary.jpg
+thumb: true
 year: 2013
 medium: CD
 cost: $10

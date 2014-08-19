@@ -1,7 +1,7 @@
 ---
 layout: album
 title:  Jus' Yenjai
-image: jusyenjai.gif
+image: jusyenjai.jpg
 year: 1995
 medium: cassette
 cost: $5

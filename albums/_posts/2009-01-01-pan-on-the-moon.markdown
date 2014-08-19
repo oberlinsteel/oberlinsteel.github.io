@@ -2,6 +2,7 @@
 layout: album
 title:  Pan on the Moon
 image: panonthemoon.jpg
+thumb: true
 year: 2009
 medium: CD
 cost: $5

@@ -16,7 +16,7 @@ For track listings and more information, click on the album titles below. Many o
 		<div class="col-xs-12 col-sm-4 card-wrapper">
 			<div class="card row clearfix">
 				<a href="{{ site.baseurl }}{{ post.url }}" class="col-xs-6 col-sm-12">
-					<img class="img-responsive" src="{{ site.baseurl }}{{ site.image_url }}/albums/{{ post.image }}">
+					<img class="img-responsive" src="{{ site.baseurl }}{{ site.image_url }}/albums{% if post.thumb %}-small{% endif %}/{{ post.image }}">
 				</a>
 				<div class="col-xs-6 col-sm-12">
 					<a href="{{ site.baseurl }}{{ post.url }}">

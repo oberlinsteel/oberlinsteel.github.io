@@ -2,6 +2,7 @@
 layout: album
 title:  Don't Panic!
 image: dontpanic.jpg
+thumb: true
 year: 2005
 medium: CD
 cost: $5

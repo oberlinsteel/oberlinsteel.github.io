@@ -2,6 +2,7 @@
 layout: album
 title:  Steel This Band
 image: steelthisband.jpg
+thumb: true
 year: 2001
 medium: CD
 bandcamp: steelthisband

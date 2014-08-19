@@ -2,6 +2,7 @@
 layout: album
 title:  Panhandlin'
 image: panhandlin.jpg
+thumb: true
 year: 1993
 medium: CD
 cost: $5
