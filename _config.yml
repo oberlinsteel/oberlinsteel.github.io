@@ -8,6 +8,23 @@ prose:
   siteurl: 'http://oberlinsteel.com'
   media: 'static/media'
   metadata:
+    .:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+      - name: "bg"
+        field:
+          element: "text"
+          label: "Background Image"
+          help: "Name of file, must be in static/images/backgrounds"
+          type: "text"
+      - name: "heading"
+        field:
+          element: "text"
+          label: "Heading"
+          help: "What it says at the top of the page. The title of this file is what goes in the name of the tab in the browser."
+          type: "text"
     albums/_posts:
       - name: "layout"
         field:
