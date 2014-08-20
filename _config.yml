@@ -5,7 +5,6 @@ permalink: /albums/:title/
 image_url: /static/images
 baseurl: ""
 prose:
-  rooturl: '_posts'
   siteurl: 'http://oberlinsteel.com'
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'static/media'
