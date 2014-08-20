@@ -43,7 +43,7 @@ prose:
       - name: "image"
         field:
           element: "text"
-          label: "Image *"
+          label: "Image"
           help: "Name of file, must be in static/images/albums"
           type: "text"
       - name: "thumb"
@@ -52,7 +52,7 @@ prose:
           label: "Thumbnail"
           help: "If you have a smaller version of the image in static/images/albums-small"
           value: "false"
-      - name: "Year *"
+      - name: "Year"
         field:
           element: "number"
           label: "year"
