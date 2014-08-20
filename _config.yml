@@ -6,7 +6,6 @@ image_url: /static/images
 baseurl: ""
 prose:
   siteurl: 'http://oberlinsteel.com'
-  media: 'static/media'
   metadata:
     albums/_posts:
       - name: "layout"
