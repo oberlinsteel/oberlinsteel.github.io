@@ -26,13 +26,13 @@ prose:
           help: "If you have a smaller version of the image in static/images/albums-small"
           value: "false"
       - name: "year"
-        element:
-          field: "number"
+        field:
+          element: "number"
           label: "year"
           type: "number"
       - name: "medium"
-        element:
-          field: "multiselect"
+        field:
+          element: "multiselect"
           value: "Medium"
           options:
           - name: 'CD'
@@ -41,21 +41,21 @@ prose:
             value: 'cassette'
           alterable: true
       - name: "cost"
-        element:
-          field: "text"
+        field:
+          element: "text"
           label: "Cost"
           help: "In the format $10"
           placeholder: "$0"
           type: "text"
       - name: "paypal"
-        element:
-          field: "text"
+        field:
+          element: "text"
           label: "PayPal code"
           help: "When you make a button, this is called value in the HTML. It looks like 37V6YCL34FQGA"
           type: "text"
       - name: "bandcamp"
-        element:
-          field: "text"
+        field:
+          element: "text"
           label: "Bandcamp Link"
           help: "The part of the link that is the name of the album. It looks like welcome-to-the-swanktuary"
           type: "text"  
