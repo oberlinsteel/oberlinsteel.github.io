@@ -17,7 +17,7 @@ prose:
     - /static/config.rb
     - /static/sass
     - /_includes
-    - /config.yml
+    - /_config.yml
   metadata:
     "":
       - name: "layout"
