@@ -17,12 +17,12 @@ prose:
         field:
           element: "text"
           label: "Background Image"
-          help: "Name of file, must be in static/images/backgrounds"
+          help: "Name of file, must be in static/images/backgrounds. If you don't set this, it'll just be red."
           type: "text"
       - name: "heading"
         field:
           element: "text"
-          label: "Heading"
+          label: "Heading (Optional)"
           help: "What it says at the top of the page. The title of this file is what goes in the name of the tab in the browser."
           type: "text"
     albums/_posts:
@@ -33,7 +33,7 @@ prose:
       - name: "image"
         field:
           element: "text"
-          label: "Image"
+          label: "Image *"
           help: "Name of file, must be in static/images/albums"
           type: "text"
       - name: "thumb"
@@ -42,7 +42,7 @@ prose:
           label: "Thumbnail"
           help: "If you have a smaller version of the image in static/images/albums-small"
           value: "false"
-      - name: "year"
+      - name: "year *"
         field:
           element: "number"
           label: "year"
@@ -60,7 +60,7 @@ prose:
       - name: "cost"
         field:
           element: "text"
-          label: "Cost"
+          label: "Cost, if available to buy"
           help: "In the format $10"
           placeholder: "$0"
           type: "text"
