@@ -146,7 +146,10 @@ h1
 			+dark
 			+text-shadow($gray-darker 3px 2px 0)
 
-
+.slash-list-item::before
+	content: "/"
+.slash-list-item:first-child::before
+	content: ""
 .table > tbody > tr:first-child > td
 	border-top: none
 

@@ -28,7 +28,7 @@ Each album the band has produced has a unique style all its own. As veteran memb
 						{% endif %}
 						{% if post.cost %}
 							{{ post.cost }}
-						{% endif %} {{ post.medium }}
+						{% endif %} <span>{% for medium in post.medium %}<span class="slash-list-item">{{ medium }}</span>{% endfor %}</span>
 					</p>
 					{% if post.paypal %}
 						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">

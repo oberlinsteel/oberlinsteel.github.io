@@ -203,6 +203,14 @@ h1 {
   }
 }
 
+.slash-list-item::before {
+  content: "/";
+}
+
+.slash-list-item:first-child::before {
+  content: "";
+}
+
 .table > tbody > tr:first-child > td {
   border-top: none;
 }

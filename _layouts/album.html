@@ -3,7 +3,9 @@ layout: default
 bg: music.jpg
 ---
 
-<img class="img-responsive" src="{{ site.baseurl }}{{ site.image_url }}/albums/{{ page.image }}">
+{% if page.image %}
+	<img class="img-responsive" src="{{ site.baseurl }}{{ site.image_url }}/albums/{{ page.image }}">
+{% endif %}
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 	<input type="hidden" name="cmd" value="_s-xclick">
@@ -16,23 +18,23 @@ bg: music.jpg
 	{% endif %}
 </form>
 
-{% unless page.merch %}
+{% if page.tracks %}
 	<h2>Tracks</h2>
 	<ol>
 		{% for track in page.tracks %}
 			<li><strong>{{ track.title }}</strong> {{ track.info }}</li>
 		{% endfor %}
 	</ol>
+{% endif %}
 
-	{% if page.personnel %}
-		<h2>Personnel</h2>
-		<ul class="unstyled">
-		{% for person in page.personnel %}
-			<li><strong class="inline-h">{{ person.name }}</strong> {{ person.instrument }}</li>
-		{% endfor %}
-		</ul>
-	{% endif %}
-{% endunless %}
+{% if page.personnel %}
+	<h2>Personnel</h2>
+	<ul class="unstyled">
+	{% for person in page.personnel %}
+		<li><strong class="inline-h">{{ person.name }}</strong> {{ person.instrument }}</li>
+	{% endfor %}
+	</ul>
+{% endif %}
 
 <div class="info margin-leader">
 	{{ content }}
