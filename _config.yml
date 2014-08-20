@@ -33,7 +33,7 @@ prose:
       - name: "medium"
         field:
           element: "multiselect"
-          value: "Medium"
+          label: "Medium"
           options:
           - name: 'CD'
             value: 'CD'
