@@ -7,6 +7,16 @@ baseurl: ""
 prose:
   siteurl: 'http://oberlinsteel.com'
   media: 'static/media'
+  ignore:
+    - /CNAME
+    - /.gitignore
+    - /README.md
+    - /robots.txt
+    - /static/css
+    - /static/javascripts
+    - /static/config.rb
+    - /static/sass
+    - /_includes
   metadata:
     "":
       - name: "layout"
