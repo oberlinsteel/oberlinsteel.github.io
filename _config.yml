@@ -42,7 +42,7 @@ prose:
           label: "Thumbnail"
           help: "If you have a smaller version of the image in static/images/albums-small"
           value: "false"
-      - name: "year *"
+      - name: "Year *"
         field:
           element: "number"
           label: "year"
