@@ -60,10 +60,11 @@ prose:
           label: "Thumbnail"
           help: "If you have a smaller version of the image in static/images/albums-small"
           value: "false"
-      - name: "Year"
+      - name: "year"
         field:
           element: "number"
-          label: "year"
+          label: "Year"
+          help: "You don't need to list this for merch that doesn't have a year"
           type: "number"
       - name: "medium"
         field:
