@@ -36,6 +36,13 @@ prose:
           label: "Heading (Optional)"
           help: "What it says at the top of the page. The title of this file is what goes in the name of the tab in the browser."
           type: "text"
+      - name: "body-class"
+        field: 
+          element: "button"
+          label: "Dark Photo?"
+          help: "This makes the text boxes dark"
+          on: "inverse"
+          off: ""
     albums/_posts:
       - name: "layout"
         field:
