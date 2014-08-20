@@ -6,7 +6,6 @@ image_url: /static/images
 baseurl: ""
 prose:
   siteurl: 'http://oberlinsteel.com'
-  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'static/media'
   metadata:
     albums/_posts:
