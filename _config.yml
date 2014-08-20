@@ -8,7 +8,7 @@ prose:
   siteurl: 'http://oberlinsteel.com'
   media: 'static/media'
   metadata:
-    .:
+    "":
       - name: "layout"
         field:
           element: "hidden"
