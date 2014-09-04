@@ -28,9 +28,12 @@ members:
 - name: Noah Jones
   instrument: Double Tenor
   hometown: Los Angeles, CA
-- name: Tom Rathe
+- name: Sarah Stratton
+  instrument: Double Tenor
+  hometown: Bristol, VT
+- name: Galen Landsberg
   instrument: Double Seconds
-  hometown: Charlottesville, VA
+  hometown: Los Angeles, CA
 - name: Noah Sanderson
   instrument: Double Seconds
   hometown: Easton, CT
