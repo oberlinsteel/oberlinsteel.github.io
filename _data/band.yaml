@@ -1,3 +1,8 @@
+---
+layout: default
+published: false
+---
+
 members: 
 - name: Emma Berg
   instrument: Tenor
@@ -14,12 +19,12 @@ members:
 - name: Audrey Knox
   instrument: Tenor
   hometown: Palo Alto, CA
+- name: Amanda Leopold
+  instrument: Tenor
+  hometown: Columbia, MD
 - name: Mike Mazzullo
   instrument: Tenor
   hometown: Ellicott City, MD
-- name: Katie Rotman
-  instrument: Tenor
-  hometown: Montreal, QC
 - name: Noah Jones
   instrument: Double Tenor
   hometown: Los Angeles, CA
