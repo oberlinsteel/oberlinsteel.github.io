@@ -15,6 +15,6 @@ This January, OSteel will travel to Trinidad to perform in the famous Panorama c
 
 But we need your help! We're currently in the midst of a giant fundraising push—if we don't raise enough money, we won't be able to bring this exciting and educational adventure to fruition. Please help us by donating to our Indiegogo fundraising campaign through the link below:
 
-http://igg.me/at/osteeltrinidad
+[http://igg.me/at/osteeltrinidad](http://igg.me/at/osteeltrinidad)
 
 Anything you can give is a big help. You can also pitch in by buying our merchandise: digital copies of our music are available on our [Bandcamp](http://oberlinsteel.bandcamp.com/) page, and you can purchase physical albums/t-shirts/stickers in the [Albums]({{ site.baseurl }}/albums/) section of this site or by e-mailing us at [osteel@oberlin.edu](osteel@oberlin.edu).
