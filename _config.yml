@@ -17,6 +17,7 @@ prose:
     - /static/config.rb
     - /static/sass
     - /_includes
+    - /_data
     - /_config.yml
   metadata:
     "":
@@ -95,3 +96,20 @@ prose:
           label: "Bandcamp Link"
           help: "The part of the link that is the name of the album. It looks like welcome-to-the-swanktuary"
           type: "text"  
+      - name: "tracks"
+        field:
+          element: "textarea"
+          label: "Tracks"
+          help: |
+            e.g.
+            - title: Pan Jam
+              info: arr. Can Consortium
+      - name: "personnel"
+        field:
+          element: "textarea"
+          label: "Personnel"
+          help: |
+            e.g.
+            - name: Myla Goldberg
+              instrument: tenor
+
