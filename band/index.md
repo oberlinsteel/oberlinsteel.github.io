@@ -3,7 +3,9 @@ layout: default
 bg: band.jpg
 title: Band
 heading: The Band
+published: true
 ---
+
 <table class="table">
 	<tbody>
 		{% for member in site.data.band.members %}	
