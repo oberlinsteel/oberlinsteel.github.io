@@ -1,8 +1,13 @@
 ---
 layout: album
 title:  T-shirt
-image: filler.gif
+image: t-shirt.jpg
+thumb: true
 cost: $15
 paypal: STJB9K2H73V8U
 ---
-T-shirts, coming soon!
+All shirts are black.
+
+Print color varies: white, blue, purple, green
+
+Designed by CC Ciraolo.
