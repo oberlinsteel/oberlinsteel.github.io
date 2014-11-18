@@ -33,7 +33,7 @@ Each album the band has produced has a unique style all its own. As veteran memb
 					{% if post.paypal %}
 						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 							<input type="hidden" name="cmd" value="_s-xclick">
-							<input type="hidden" name="hosted_button_id" value="{{ page.paypal }}">
+							<input type="hidden" name="hosted_button_id" value="{{ post.paypal }}">
 								<input type="submit" class="a" name="submit" value="Buy with PayPal">
 						</form>
 					{% endif %}
