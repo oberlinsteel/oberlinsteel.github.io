@@ -8,7 +8,9 @@ paypal: STJB9K2H73V8U
 ---
 All shirts are black.
 
-Shirts come in adult sizes small, medium, and large.
+Shirts come in adult sizes small, medium, large, and extra large.
+
+Please specify your size (S, M, L, XL) in the PayPal field labeled, “Add special instructions to the seller."
 
 Print color varies: white, blue, purple, green
 
