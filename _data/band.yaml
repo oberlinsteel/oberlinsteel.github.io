@@ -19,7 +19,13 @@ members:
   hometown: Columbia, MD
 - name: Mike Mazzullo
   instrument: Tenor
-  hometown: Ellicott City, MD
+  hometown: Ellicott City, MD 
+- name: Abbey Bisesi
+  instrument: Double Tenor
+  hometown: Bloomington, IN
+- name: Matthew Marchand
+  instrument: Double Tenor
+  hometown: Los Angeles, CA
 - name: Noah Jones
   instrument: Double Tenor
   hometown: Los Angeles, CA
@@ -44,6 +50,9 @@ members:
 - name: Jess Hubert
   instrument: Quadrophonics
   hometown: Chicago, IL
+- name: Alexa Watson
+  instrument: Tenor Bass
+  hometown: Owings Mills, MD
 - name: Noah Last
   instrument: Tenor Bass
   hometown: East Michigan, MI
