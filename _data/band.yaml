@@ -2,33 +2,30 @@ members:
 - name: Emma Berg
   instrument: Tenor
   hometown: East Lansing, MI
+- name: Antonia Chandler
+  instrument: 
+  hometown: Seattle, WA
 - name: Joseph Farago
   instrument: Tenor
   hometown: Chicago, IL
 - name: Isabel Hulkower
   instrument: Tenor
   hometown: Reston, VA
-- name: Monica Hunter-Hart
-  instrument: Tenor
-  hometown: Northampton, MA
-- name: Audrey Knox
-  instrument: Tenor
-  hometown: Palo Alto, CA
 - name: Amanda Leopold
   instrument: Tenor
   hometown: Columbia, MD
 - name: Mike Mazzullo
   instrument: Tenor
   hometown: Ellicott City, MD 
+- name: Sophia Pekowsky
+  instrument: 
+  hometown: Brookline, MA 
+- name: Liam Smith
+  instrument: 
+  hometown: Minneapolis, MN
 - name: Abbey Bisesi
   instrument: Double Tenor
   hometown: Bloomington, IN
-- name: Matthew Marchand
-  instrument: Double Tenor
-  hometown: Los Angeles, CA
-- name: Noah Jones
-  instrument: Double Tenor
-  hometown: Los Angeles, CA
 - name: Sarah Stratton
   instrument: Double Tenor
   hometown: Bristol, VT
@@ -56,32 +53,27 @@ members:
 - name: Noah Last
   instrument: Tenor Bass
   hometown: East Michigan, MI
-- name: Eliot Hart-Nelson
-  instrument: Six Bass
-  hometown: St. Paul, MN
-- name: Eric Xue
-  instrument: Drumset
-  hometown: Shanghai, China
+- name: Samuel Rueckert
+  instrument: Drum Set
+  hometown: 
 - name: CC Ciraolo
   instrument: Percussion
   hometown: Albany, CA
-- name: Peter Saudek
-  instrument: Percussion
-  hometown: Lexington, MA
+
 
 officers:
 - title: Musical Directors
-  name: Audrey and Monica
+  name: Maya, Mike, and Noah S.
 - title: Gig Coordinator
-  name: Eliot
+  name: Emma
 - title: Treasurer
   name: Jeremy
 - title: Librarian
-  name: Mike
+  name: Mike and Joseph
 - title: Exco Teachers
-  name: Maya and Joseph
+  name: Isabel, Noah L., and Amanda
 - title: Band Advocates
-  name: Isabel and Peter
+  name: Isabel and Alexa
 - title: Website Coordinator
   name: Maya
 - title: Alumni Coordinator
