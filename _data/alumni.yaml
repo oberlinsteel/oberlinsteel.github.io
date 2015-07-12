@@ -1,3 +1,8 @@
+---
+layout: default
+published: false
+---
+
 members: 
 - name: |
    Monica Hunter-Hart
@@ -36,7 +41,7 @@ members:
   instruments: |
     Double Tenor, Aux Percussion
   years: |
-    Spring 11-Spring 14
+    Spring 11-Fall 14
 - name: |
     James Luttrell
   instruments: |
@@ -1140,7 +1145,7 @@ members:
   years: |
     82-84
 - name: |
-    Alan Hermann
+    Alan Herrmann
   instruments: |
     Tenor
   years: |
