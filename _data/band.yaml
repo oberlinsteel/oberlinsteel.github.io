@@ -11,12 +11,6 @@ members:
 - name: Isabel Hulkower
   instrument: Tenor
   hometown: Reston, VA
-- name: Amanda Leopold
-  instrument: 6 Bass
-  hometown: Columbia, MD
-- name: Mike Mazzullo
-  instrument: Double Seconds
-  hometown: Ellicott City, MD 
 - name: Sophia Pekowsky
   instrument: Tenor
   hometown: Brookline, MA 
@@ -32,33 +26,39 @@ members:
 - name: Galen Landsberg
   instrument: Double Seconds
   hometown: Los Angeles, CA
-- name: Noah Sanderson
-  instrument: Cellos
-  hometown: Easton, CT
+- name: Mike Mazzullo
+  instrument: Double Seconds
+  hometown: Ellicott City, MD 
 - name: Maya Zeemont
   instrument: Double Seconds
   hometown: Berkeley, CA
-- name: Olivia Salas
-  instrument: Percussion
-  hometown: Moorpark, CA
+- name: Noah Sanderson
+  instrument: Cellos
+  hometown: Easton, CT
 - name: Jeremy Simon
   instrument: Cello
   hometown: Ann Arbor, MI
+- name: Noah Last
+  instrument: Quads
+  hometown: East Michigan, MI
 - name: Jess Hubert
   instrument: Tenor Bass
   hometown: Chicago, IL
 - name: Alexa Watson
   instrument: Tenor Bass
   hometown: Owings Mills, MD
-- name: Noah Last
-  instrument: Quads
-  hometown: East Michigan, MI
+- name: Amanda Leopold
+  instrument: 6 Bass
+  hometown: Columbia, MD
 - name: Samuel Rueckert
   instrument: Drum Set
   hometown: 
 - name: CC Ciraolo
   instrument: Percussion
   hometown: Albany, CA
+- name: Olivia Salas
+  instrument: Percussion
+  hometown: Moorpark, CA
 
 
 officers:
