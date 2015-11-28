@@ -36,7 +36,7 @@ members:
   instrument: Cellos
   hometown: Easton, CT
 - name: Jeremy Simon
-  instrument: Cello
+  instrument: Cellos
   hometown: Ann Arbor, MI
 - name: Noah Last
   instrument: Quads
@@ -48,7 +48,7 @@ members:
   instrument: Tenor Bass
   hometown: Owings Mills, MD
 - name: Amanda Leopold
-  instrument: 6 Bass
+  instrument: Six Bass
   hometown: Columbia, MD
 - name: Samuel Rueckert
   instrument: Drum Set
@@ -56,9 +56,6 @@ members:
 - name: CC Ciraolo
   instrument: Percussion
   hometown: Albany, CA
-- name: Olivia Salas
-  instrument: Percussion
-  hometown: Moorpark, CA
 
 
 officers:
