@@ -5,7 +5,7 @@ bg: trip.jpg
 published: true
 ---
 
-This past January, OSteel traveled to Trinidad to perform in the famous Panorama competition as a part of Birdsong Steel Orchestra! Our goals for our winter term trip included:
+In January, 2015, several members of OSteel traveled to Trinidad to perform in the famous Panorama competition as a part of Birdsong Steel Orchestra! Our goals for our winter term trip included:
 
 - Growing as musicians and performers.
 - Acquiring pan-playing techniques, rehearsal practices, and band management skills that can be integrated into OSteel upon returning to Oberlin.
