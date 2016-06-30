@@ -1,10 +1,4 @@
 members: 
-- name: Emma Berg
-  instrument: Tenor
-  hometown: East Lansing, MI
-- name: Antonia Chandler
-  instrument: Tenor
-  hometown: Seattle, WA
 - name: Joseph Farago
   instrument: Tenor
   hometown: Chicago, IL
@@ -14,24 +8,12 @@ members:
 - name: Sophia Pekowsky
   instrument: Tenor
   hometown: Brookline, MA 
-- name: Liam Smith
-  instrument: Tenor
-  hometown: Minneapolis, MN
 - name: Abbey Bisesi
   instrument: Double Tenor
   hometown: Bloomington, IN
-- name: Sarah Stratton
-  instrument: Double Tenor
-  hometown: Bristol, VT
 - name: Galen Landsberg
   instrument: Double Seconds
   hometown: Los Angeles, CA
-- name: Mike Mazzullo
-  instrument: Double Seconds
-  hometown: Ellicott City, MD 
-- name: Maya Zeemont
-  instrument: Double Seconds
-  hometown: Berkeley, CA
 - name: Noah Sanderson
   instrument: Cellos
   hometown: Easton, CT
@@ -41,9 +23,6 @@ members:
 - name: Noah Last
   instrument: Quads
   hometown: East Michigan, MI
-- name: Jess Hubert
-  instrument: Tenor Bass
-  hometown: Chicago, IL
 - name: Alexa Watson
   instrument: Tenor Bass
   hometown: Owings Mills, MD
@@ -53,24 +32,21 @@ members:
 - name: Samuel Rueckert
   instrument: Drum Set
   hometown: Washington DC
-- name: CC Ciraolo
-  instrument: Percussion
-  hometown: Albany, CA
 
 
 officers:
 - title: Musical Directors
-  name: Maya, Mike, and Noah S.
+  name: Amanda and Alexa
 - title: Gig Coordinator
-  name: Emma
+  name: 
 - title: Treasurers
-  name: Jeremy and Amanda
+  name: Jeremy
 - title: Librarians
-  name: Mike and Joseph
+  name: Sam
 - title: Exco Teachers
-  name: Isabel, Noah L., and Amanda
+  name: Galen, Jeremy, and Joseph
 - title: Band Advocates
-  name: Isabel and Alexa
+  name: 
 - title: Website Coordinator
   name: Maya
 - title: Alumni Coordinator
