@@ -9,10 +9,10 @@ This crazy band of ours has a long and very twisted history starting in 1980! Fo
 <table class="table table-condensed table-hover">
 	<thead>
 		<tr>
-			<th class="col-sm-3">Name</td>
-			<th class="col-sm-3">Instruments</td>
-			<th class="col-sm-2">Years</td>
-			<th class="col-sm-4">About</td>
+			<th class="col-sm-3">Name
+			<th class="col-sm-3">Instruments
+			<th class="col-sm-2">Years
+			<th class="col-sm-4">About
 		</tr>
 	</thead>
 	<tbody>
