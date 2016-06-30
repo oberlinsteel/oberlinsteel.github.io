@@ -1,5 +1,5 @@
 name: Oberlin Steel
-markdown: redcarpet
+markdown: kramdown
 permalink: /albums/:title/
 image_url: /static/images
 baseurl: ""
