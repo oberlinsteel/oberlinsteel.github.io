@@ -18,7 +18,7 @@ published: true
 	</tbody>
 </table>
 
-###Officers
+Officers
 <ul class="unstyled ul-xs-table">
 	{% for position in site.data.band.officers %}
 		<li><strong class="inline-h">{{ position.title }}</strong> {{ position.name }}</li>	
