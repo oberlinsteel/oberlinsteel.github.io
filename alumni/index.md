@@ -24,4 +24,4 @@ This crazy band of ours has a long and very twisted history starting in 1980! Fo
 			</tr>
 		{% endfor %}
 	</tbody>
-</table>
+
