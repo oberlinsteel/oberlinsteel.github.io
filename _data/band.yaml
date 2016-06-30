@@ -35,16 +35,16 @@ members:
 - name: Samuel Rueckert
   instrument: Drum Set
   hometown: Washington DC
--name: Carrie Jones
+- name: Carrie Jones
   hometown: Belmont, MA
--name: Hannah Kim
+- name: Hannah Kim
   hometown: Oberlin, OH
--name: Gus Perkins
--name: Tempe Shrenker
+- name: Gus Perkins
+- name: Tempe Shrenker
   hometown: Monson, MA
--name: Aliya Tuzhilin
+- name: Aliya Tuzhilin
   hometown: New York, NY
--name: Andrea Wang
+- name: Andrea Wang
 
 officers:
 - title: Musical Directors
