@@ -1,11 +1,12 @@
 ---
 layout: default
-title: "Albums & Merchandise"
+title: Albums & Merchandise
 bg: music.jpg
 published: true
+body-class: true
 ---
 
-Oberlin Steel has recorded nine albums: five under its former name, The Can Consortium, and four under its current; the band’s newest album, Welcome to the Swanktuary, was released in May 2013. For track listings and more information, click on the album titles below.
+Oberlin Steel has recorded ten albums: five under its former name, The Can Consortium, and four under its current; the band’s newest album, _Plenty Vibes_, was released in Spring 2016. For track listings and more information, click on the album titles below.
 
 Any albums still in print can either be purchased here through Paypal or by e-mailing the band at [osteel@oberlin.edu](osteel@oberlin.edu). Many of our albums (as noted below) can also be found [on bandcamp](http://oberlinsteel.bandcamp.com). Additionally, we have rad t-shirts and stickers for sale at the end of this page. If you'd like to order multiple items at once, it's most efficient to e-mail your order to the band.
 
