@@ -1,67 +1,66 @@
 members: 
-- name: Joseph Farago
+- name: Eleda Fernald
   instrument: Tenor
-  hometown: Chicago, IL
-- name: Isabel Hulkower
+  hometown: Wallingford, PA
+- name: Anna Guterman
   instrument: Tenor
-  hometown: Reston, VA
-- name: Sophia Pekowsky
+  hometown: Hastings on Hudson, NY
+- name: Liam Smith
   instrument: Tenor
-  hometown: Brookline, MA 
-- name: Abbey Bisesi
+  hometown: Minneapolis, MN
+- name: Mel Xu
+  instrument: Tenor
+  hometown: Great Neck, NY
+- name: Lucy Brown
   instrument: Double Tenor
-  hometown: Bloomington, IN
-- name: Galen Landsberg
-  instrument: Double Seconds
-  hometown: Los Angeles, CA
-- name: Jeremy Simon
-  instrument: Cellos
-  hometown: Ann Arbor, MI
-- name: Noah Sanderson
-  instrument: Cellos
-  hometown: Easton, CT
-- name: Joanna Quinn
-  instrument: Cellos
-  hometown: Portland, MA
-- name: Noah Last
-  instrument: Quads
-  hometown: East Michigan, MI
-- name: Alexa Watson
-  instrument: Tenor Bass
-  hometown: Owings Mills, MD
-- name: Amanda Leopold
-  instrument: Six Bass
-  hometown: Columbia, MD
-- name: Samuel Rueckert
-  instrument: Drum Set
   hometown: Washington DC
+- name: Andrea Wang
+  instrument: Double Tenor
+  hometown: Valley Forge, PA
+- name: Emily Peterson
+  instrument: Double Seconds
+  hometown: Ann Arbor, MI
+- name: Simon Printz
+  instrument: Double Seconds
+  hometown: Brookline, MA
+- name: Katja Zoner
+  instrument: Double Seconds
+  hometown: Farmington, CT
 - name: Carrie Jones
+  instrument: Cellos
   hometown: Belmont, MA
+- name: Malaya Nordyke
+  instrument: Cellos
+  hometown: Los Angeles, CA
+- name: Kitty Schwartz
+  instrument: Quadrophonics
+  hometown: Urbana, IL
+- name: Tempe Shrenker
+  instrument: Tenor Bass
+  hometown: Monson, MA
 - name: Hannah Kim
+  instrument: Six Bass
   hometown: Oberlin, OH
 - name: Gus Perkins
   instrument: Percussion
-  hometown: 
-- name: Tempe Shrenker
-  hometown: Monson, MA
-- name: Aliya Tuzhilin
-  hometown: New York, NY
-- name: Andrea Wang
+  hometown: Lincoln, MA
+- name: Joanna Quinn
+  instrument: Percussion
+  hometown: Portland, ME
+- name: Le'Priya White
+  instrument: Percussion
+  hometown: Chicago, IL
 
 officers:
 - title: Musical Directors
-  name: Amanda and Alexa
+  name: Hannah and Liam
 - title: Gig Coordinator
-  name: Jeremy and Noah L.
-- title: Treasurer
-  name: Jeremy
-- title: Librarians
-  name: Samuel
+  name: Malaya
+- title: Treasurers
+  name: Tempe and Eleda
+- title: Librarian
+  name: Emily
 - title: Exco Teachers
-  name: Galen, Jeremy, and Joseph
-- title: Band Advocates
-  name: Alexa and Joanna
-- title: Website Coordinator
-  name: Maya
-- title: Alumni Coordinator
-  name: Joseph
+  name: Mel, Joanna, Eleda
+- title: Website/Alumni Coordinator
+  name: Maya Zeemont
