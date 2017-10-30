@@ -1,5 +1,59 @@
 members: 
 - name: |
+   Ave Bisesi
+  instruments: |
+    Double Tenor
+  years: |
+    
+- name: |
+   Joseph Farago
+  instruments: |
+    Tenor
+  years: |
+    Spring 14-Spring 17
+- name: |
+   Galen Landsberg
+  instruments: |
+    Double Seconds
+  years: |
+    Fall 14-Fall 16
+- name: |
+   Noah Last
+  instruments: |
+    Quads
+  years: |
+    Fall 14-Spring 17
+- name: |
+   Amanda Leopold
+  instruments: |
+    Tenor, Six Bass
+  years: |
+    Fall 14- Spring 17
+- name: |
+   Samuel Rueckert
+  instruments: |
+    Percussion
+  years: |
+    
+- name: |
+   Noah Sanderson
+  instruments: |
+    Double Seconds, Cello, Tenor
+  years: |
+    Fall 13-Spring 17
+- name: |
+   Jeremy Simon
+  instruments: |
+    Double Seconds, Cello
+  years: |
+    Spring 14-Spring 17
+ - name: |
+   Alexa Watson
+  instruments: |
+    Tenor Bass
+  years: |
+    
+ - name: |
    Emma Berg
   instruments: |
     Tenor
@@ -35,12 +89,6 @@ members:
     Tenor, Double Seconds
   years: |
     Spring 14-Spring 16
-- name: | 
-   Liam Smith
-  instruments: |
-    Tenor
-  years: |
-    Fall 15-Spring 16
 - name: |
    Sarah Stratton
   instruments: |
