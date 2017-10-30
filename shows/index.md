@@ -11,7 +11,7 @@ bg: shows.jpg
 	<div class="col-sm-6 col-sm-pull-6">
 		<h2>Booking Info</h2>
 		<p>OSteel plays primarily Trinidadian calypso and soca tunes, up-tempo and extremely danceable. Despite being a large group, OSteel can easily downsize to fit almost any space and requires no sound assistance. The band has performed in venues ranging from concert halls and open-air markets to tiny nightclubs.</p>
-		<p>The band’s current gig coordinator is Emma Berg. If you would like to book the band, please contact us at <a href="mailto:osteel@oberlin.edu">osteel@oberlin.edu</a>.</p>
+		<p>The band’s current gig coordinator is Malaya Nordyke. If you would like to book the band, please contact us at <a href="mailto:osteel@oberlin.edu">osteel@oberlin.edu</a>.</p>
 	</div>
 </div>
 
