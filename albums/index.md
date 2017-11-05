@@ -46,3 +46,4 @@ Each album the band has produced has a unique style all its own. As veteran memb
 		</div>
 	{% endfor %}
 </div>
+
