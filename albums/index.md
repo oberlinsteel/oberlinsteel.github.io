@@ -3,7 +3,7 @@ layout: default
 title: Albums & Merchandise
 bg: music.jpg
 published: true
-body-class: true
+body-class: false
 ---
 
 Oberlin Steel has recorded ten albums: five under its former name, The Can Consortium, and four under its current; the band’s newest album, _Plenty Vibes_, was released in Spring 2016. For track listings and more information, click on the album titles below.
@@ -46,4 +46,3 @@ Each album the band has produced has a unique style all its own. As veteran memb
 		</div>
 	{% endfor %}
 </div>
-
