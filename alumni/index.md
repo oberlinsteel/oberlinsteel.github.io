@@ -12,8 +12,7 @@ This crazy band of ours has a long and very twisted history starting in 1980! Fo
 			<th class="col-sm-3">Name
 			<th class="col-sm-3">Instruments
 			<th class="col-sm-2">Years
-			<th class="col-sm-4">About
-		
+			<th class="col-sm-4">About		
 	<tbody>
 		{% for member in site.data.alumni.members %}	
 			<tr>
